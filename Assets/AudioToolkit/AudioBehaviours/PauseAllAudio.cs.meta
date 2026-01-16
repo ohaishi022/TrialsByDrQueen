@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3dbe5460dac6303409eb7d0765ad692e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/AudioBehaviours/PauseAllAudio.cs
+  uploadId: 689468

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ec999f72f6204364aabb6d24a13dfd4c
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/Demo/AudioController.prefab
+  uploadId: 689468

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 49a97f14e15d2354c801bb2715030a37
+AudioImporter:
+  serializedVersion: 4
+  format: 0
+  quality: -1
+  stream: 1
+  3D: 1
+  forceToMono: 0
+  useHardware: 0
+  loopable: 0
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/Demo/TestSounds/garden.ogg
+  uploadId: 689468

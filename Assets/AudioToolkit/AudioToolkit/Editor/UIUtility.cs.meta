@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4c3da05ac1c633e4a8c199b106c51d96
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/AudioToolkit/Editor/UIUtility.cs
+  uploadId: 689468

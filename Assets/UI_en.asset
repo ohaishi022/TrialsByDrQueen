@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b4977d24d0adaf14e950412372192ca1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 37658247168
+    m_Localized: Now Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89491456000
+    m_Localized: Game_Endless_StartAlert_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212971765760
+    m_Localized: Game_Endless_StartAlert_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 510599577600
+    m_Localized: Game_Endless_StartAlert_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5520402104320
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468800736280576
+    m_Localized: Game_Endless_SwitchHealthBar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1036203144724480
+    m_Localized: Loading_Error_FileNotFound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1038414348238848
+    m_Localized: Loading_Error_ParseNotFound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26590425344851968
+    m_Localized: Game_Wave_Rest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26615309424869376
+    m_Localized: Game_GameOver_Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44244756630028288
+    m_Localized: Game_Halloween_StartAlert_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44245074340167680
+    m_Localized: Game_Halloween_StartAlert_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46590888991473664
+    m_Localized: Game_Halloween_StartAlert_3
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

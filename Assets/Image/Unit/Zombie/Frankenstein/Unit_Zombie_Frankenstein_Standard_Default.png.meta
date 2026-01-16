@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 6544d734ece71de4ea025f6c94f9c81e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5067030189477784280
+    second: Unit_Zombie_Frankenstein_Standard_Default_0
+  - first:
+      213: -1668107297766453260
+    second: Unit_Zombie_Frankenstein_Standard_Default_1
+  - first:
+      213: -7223560373519042850
+    second: Unit_Zombie_Frankenstein_Standard_Default_2
+  - first:
+      213: 3327561598560043767
+    second: Unit_Zombie_Frankenstein_Standard_Default_3
+  - first:
+      213: -4689471380551078099
+    second: Unit_Zombie_Frankenstein_Standard_Default_4
+  - first:
+      213: -3414654762523538310
+    second: Unit_Zombie_Frankenstein_Standard_Default_5
+  - first:
+      213: -8469270657177870758
+    second: Unit_Zombie_Frankenstein_Standard_Default_6
+  - first:
+      213: 7199918931700566245
+    second: Unit_Zombie_Frankenstein_Standard_Default_7
+  - first:
+      213: -2682628599202355684
+    second: Unit_Zombie_Frankenstein_Standard_Default_8
+  - first:
+      213: 2022335064075630148
+    second: Unit_Zombie_Frankenstein_Standard_Default_9
+  - first:
+      213: -5482966954807203413
+    second: Unit_Zombie_Frankenstein_Standard_Default_10
+  - first:
+      213: 3837812208116878278
+    second: Unit_Zombie_Frankenstein_Standard_Default_11
+  - first:
+      213: -6980599406426549678
+    second: Unit_Zombie_Frankenstein_Standard_Default_12
+  - first:
+      213: -8167356844698186621
+    second: Unit_Zombie_Frankenstein_Standard_Default_13
+  - first:
+      213: -1967024712291441690
+    second: Unit_Zombie_Frankenstein_Standard_Default_14
+  - first:
+      213: -6057116372296162449
+    second: Unit_Zombie_Frankenstein_Standard_Default_15
+  - first:
+      213: 857520863989722703
+    second: Unit_Zombie_Frankenstein_Standard_Default_16
+  - first:
+      213: 6839982615134461232
+    second: Unit_Zombie_Frankenstein_Standard_Default_17
+  - first:
+      213: 5001911907042077785
+    second: Unit_Zombie_Frankenstein_Standard_Default_18
+  - first:
+      213: 2582598646158576482
+    second: Unit_Zombie_Frankenstein_Standard_Default_19
+  - first:
+      213: -7584875913063204595
+    second: Unit_Zombie_Frankenstein_Standard_Default_20
+  - first:
+      213: -7144171870120141365
+    second: Unit_Zombie_Frankenstein_Standard_Default_21
+  - first:
+      213: -7285367313392692660
+    second: Unit_Zombie_Frankenstein_Standard_Default_22
+  - first:
+      213: 5418771168695669002
+    second: Unit_Zombie_Frankenstein_Standard_Default_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8251ff193ea4ea9b0800000000000000
+      internalID: -5067030189477784280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffc46d2041b9d8e0800000000000000
+      internalID: -1668107297766453260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed63fc2cc12c0cb90800000000000000
+      internalID: -7223560373519042850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2076ac4afdd2e20800000000000000
+      internalID: 3327561598560043767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f64e110a6abeeb0800000000000000
+      internalID: -4689471380551078099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c4039c595bc90d0800000000000000
+      internalID: -3414654762523538310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e164c953b177a80800000000000000
+      internalID: -8469270657177870758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e84f9f1f104be360800000000000000
+      internalID: 7199918931700566245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c166d30908365cad0800000000000000
+      internalID: -2682628599202355684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4467b07a607c01c10800000000000000
+      internalID: 2022335064075630148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9e287ca9698e3b0800000000000000
+      internalID: -5482966954807203413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbc673aed5a24530800000000000000
+      internalID: 3837812208116878278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25294ac13ddef1f90800000000000000
+      internalID: -6980599406426549678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cc8e5e838b7ae80800000000000000
+      internalID: -8167356844698186621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e324772279b3b4e0800000000000000
+      internalID: -1967024712291441690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63a51a50ccc0fba0800000000000000
+      internalID: -6057116372296162449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ee795bea686eb00800000000000000
+      internalID: 857520863989722703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ddfecd2ff7cee50800000000000000
+      internalID: 6839982615134461232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c2a01d06c5a6540800000000000000
+      internalID: 5001911907042077785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bcfa519cb37d320800000000000000
+      internalID: 2582598646158576482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0973702b8b1db690800000000000000
+      internalID: -7584875913063204595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd962b198dcadc90800000000000000
+      internalID: -7144171870120141365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c429cfa270d25ea90800000000000000
+      internalID: -7285367313392692660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_Frankenstein_Standard_Default_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01db350ba7533b40800000000000000
+      internalID: 5418771168695669002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b33168cd8f6c7e0478e27752b9316b9e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Unit_Zombie_Frankenstein_Standard_Default_0: -5067030189477784280
+      Unit_Zombie_Frankenstein_Standard_Default_1: -1668107297766453260
+      Unit_Zombie_Frankenstein_Standard_Default_10: -5482966954807203413
+      Unit_Zombie_Frankenstein_Standard_Default_11: 3837812208116878278
+      Unit_Zombie_Frankenstein_Standard_Default_12: -6980599406426549678
+      Unit_Zombie_Frankenstein_Standard_Default_13: -8167356844698186621
+      Unit_Zombie_Frankenstein_Standard_Default_14: -1967024712291441690
+      Unit_Zombie_Frankenstein_Standard_Default_15: -6057116372296162449
+      Unit_Zombie_Frankenstein_Standard_Default_16: 857520863989722703
+      Unit_Zombie_Frankenstein_Standard_Default_17: 6839982615134461232
+      Unit_Zombie_Frankenstein_Standard_Default_18: 5001911907042077785
+      Unit_Zombie_Frankenstein_Standard_Default_19: 2582598646158576482
+      Unit_Zombie_Frankenstein_Standard_Default_2: -7223560373519042850
+      Unit_Zombie_Frankenstein_Standard_Default_20: -7584875913063204595
+      Unit_Zombie_Frankenstein_Standard_Default_21: -7144171870120141365
+      Unit_Zombie_Frankenstein_Standard_Default_22: -7285367313392692660
+      Unit_Zombie_Frankenstein_Standard_Default_23: 5418771168695669002
+      Unit_Zombie_Frankenstein_Standard_Default_3: 3327561598560043767
+      Unit_Zombie_Frankenstein_Standard_Default_4: -4689471380551078099
+      Unit_Zombie_Frankenstein_Standard_Default_5: -3414654762523538310
+      Unit_Zombie_Frankenstein_Standard_Default_6: -8469270657177870758
+      Unit_Zombie_Frankenstein_Standard_Default_7: 7199918931700566245
+      Unit_Zombie_Frankenstein_Standard_Default_8: -2682628599202355684
+      Unit_Zombie_Frankenstein_Standard_Default_9: 2022335064075630148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

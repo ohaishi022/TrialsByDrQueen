@@ -1,0 +1,20 @@
+{
+    "asset": "3b1bca51c1aafd74d8b3bc5673ba0ae1",
+    "fileName": "019a2afd-b10f-71e9-b21f-fa870772bbc8.png",
+    "prompt": "Frankenstein, pixelart",
+    "negativePrompt": "Blurry, messy pixels, jpej artifacts, background, watermark",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "e6ac3d46c011362897c57af8d1156907",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

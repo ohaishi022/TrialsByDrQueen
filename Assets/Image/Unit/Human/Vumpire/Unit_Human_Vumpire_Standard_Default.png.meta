@@ -1,0 +1,1097 @@
+fileFormatVersion: 2
+guid: 8b737dbc0666eb34d8d483a8d74ea0b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8073559175004031485
+    second: Unit_Human_Vumpire_Standard_Default_0
+  - first:
+      213: -1040661256267694499
+    second: Unit_Human_Vumpire_Standard_Default_1
+  - first:
+      213: -3573849972930208366
+    second: Unit_Human_Vumpire_Standard_Default_2
+  - first:
+      213: -6699595113780431796
+    second: Unit_Human_Vumpire_Standard_Default_3
+  - first:
+      213: -2407402625242708808
+    second: Unit_Human_Vumpire_Standard_Default_4
+  - first:
+      213: 5343097112463874
+    second: Unit_Human_Vumpire_Standard_Default_5
+  - first:
+      213: 4779373799342747302
+    second: Unit_Human_Vumpire_Standard_Default_6
+  - first:
+      213: -8095577154384316529
+    second: Unit_Human_Vumpire_Standard_Default_7
+  - first:
+      213: 4240240567118136533
+    second: Unit_Human_Vumpire_Standard_Default_8
+  - first:
+      213: -1224683418154261409
+    second: Unit_Human_Vumpire_Standard_Default_9
+  - first:
+      213: 5817447958703895001
+    second: Unit_Human_Vumpire_Standard_Default_10
+  - first:
+      213: -5138449426426342023
+    second: Unit_Human_Vumpire_Standard_Default_11
+  - first:
+      213: -6813001797691299629
+    second: Unit_Human_Vumpire_Standard_Default_12
+  - first:
+      213: -6912950435441750890
+    second: Unit_Human_Vumpire_Standard_Default_13
+  - first:
+      213: 8372981991613971851
+    second: Unit_Human_Vumpire_Standard_Default_14
+  - first:
+      213: -3744966706176949820
+    second: Unit_Human_Vumpire_Standard_Default_15
+  - first:
+      213: -5257349157609655892
+    second: Unit_Human_Vumpire_Standard_Default_16
+  - first:
+      213: -7164473943656485755
+    second: Unit_Human_Vumpire_Standard_Default_17
+  - first:
+      213: 7450255842045553025
+    second: Unit_Human_Vumpire_Standard_Default_18
+  - first:
+      213: -545364751786857015
+    second: Unit_Human_Vumpire_Standard_Default_19
+  - first:
+      213: 358112919209548484
+    second: Unit_Human_Vumpire_Standard_Default_20
+  - first:
+      213: -4636926063795640013
+    second: Unit_Human_Vumpire_Standard_Default_21
+  - first:
+      213: -137033080131671095
+    second: Unit_Human_Vumpire_Standard_Default_22
+  - first:
+      213: 8812642276866945199
+    second: Unit_Human_Vumpire_Standard_Default_23
+  - first:
+      213: -152892735524839666
+    second: Unit_Human_Vumpire_Standard_Default_24
+  - first:
+      213: -3341061877656767065
+    second: Unit_Human_Vumpire_Standard_Default_25
+  - first:
+      213: 2757070785736037183
+    second: Unit_Human_Vumpire_Standard_Default_26
+  - first:
+      213: 4260617632787446475
+    second: Unit_Human_Vumpire_Standard_Default_27
+  - first:
+      213: -1002920184838637096
+    second: Unit_Human_Vumpire_Standard_Default_28
+  - first:
+      213: 262107960021807055
+    second: Unit_Human_Vumpire_Standard_Default_29
+  - first:
+      213: 4255740147417541976
+    second: Unit_Human_Vumpire_Standard_Default_30
+  - first:
+      213: -3271958596367074295
+    second: Unit_Human_Vumpire_Standard_Default_31
+  - first:
+      213: -9132437204945318992
+    second: Unit_Human_Vumpire_Standard_Default_32
+  - first:
+      213: 1143043403924437791
+    second: Unit_Human_Vumpire_Standard_Default_33
+  - first:
+      213: -915260107544595610
+    second: Unit_Human_Vumpire_Standard_Default_34
+  - first:
+      213: -4568433763493317983
+    second: Unit_Human_Vumpire_Standard_Default_35
+  - first:
+      213: -8377251283510126681
+    second: Unit_Human_Vumpire_Standard_Default_36
+  - first:
+      213: 959599940996211386
+    second: Unit_Human_Vumpire_Standard_Default_37
+  - first:
+      213: -572129903505222359
+    second: Unit_Human_Vumpire_Standard_Default_38
+  - first:
+      213: 5740530324460586213
+    second: Unit_Human_Vumpire_Standard_Default_39
+  - first:
+      213: -7838780441897369354
+    second: Unit_Human_Vumpire_Standard_Default_40
+  - first:
+      213: -683088654365605780
+    second: Unit_Human_Vumpire_Standard_Default_41
+  - first:
+      213: -8222299349262049061
+    second: Unit_Human_Vumpire_Standard_Default_42
+  - first:
+      213: -8393255465836741871
+    second: Unit_Human_Vumpire_Standard_Default_43
+  - first:
+      213: 6037900696917825000
+    second: Unit_Human_Vumpire_Standard_Default_44
+  - first:
+      213: -1846409163683200283
+    second: Unit_Human_Vumpire_Standard_Default_45
+  - first:
+      213: 1625587538670379707
+    second: Unit_Human_Vumpire_Standard_Default_46
+  - first:
+      213: -8899104231349504199
+    second: Unit_Human_Vumpire_Standard_Default_47
+  - first:
+      213: -8516614086409868344
+    second: Unit_Human_Vumpire_Standard_Default_48
+  - first:
+      213: -1152069107325407108
+    second: Unit_Human_Vumpire_Standard_Default_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306f9c4b4b4f4ff80800000000000000
+      internalID: -8073559175004031485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ef6a0e914de81f0800000000000000
+      internalID: -1040661256267694499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d94fa7262276ec0800000000000000
+      internalID: -3573849972930208366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44bc207db14603a0800000000000000
+      internalID: -6699595113780431796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4c01b3110379ed0800000000000000
+      internalID: -2407402625242708808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a836db48bf21000800000000000000
+      internalID: 5343097112463874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae22a6f52fb35240800000000000000
+      internalID: 4779373799342747302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87b725687bb6af80800000000000000
+      internalID: -8095577154384316529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4074d745c58da30800000000000000
+      internalID: 4240240567118136533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54aa9a7bec010fe0800000000000000
+      internalID: -1224683418154261409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1fdd5a81abbb050800000000000000
+      internalID: 5817447958703895001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9755c89a87f80b8b0800000000000000
+      internalID: -5138449426426342023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8238a36fa5371a0800000000000000
+      internalID: -6813001797691299629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ccc9194344010a0800000000000000
+      internalID: -6912950435441750890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8db4e862cec23470800000000000000
+      internalID: 8372981991613971851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c188a65f94370cc0800000000000000
+      internalID: -3744966706176949820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca13a78bbc42a07b0800000000000000
+      internalID: -5257349157609655892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c20d148eca29c90800000000000000
+      internalID: -7164473943656485755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18967e61730a46760800000000000000
+      internalID: 7450255842045553025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cda9b0d5a97e68f0800000000000000
+      internalID: -545364751786857015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca96fa7dc548f400800000000000000
+      internalID: 358112919209548484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13997dbf7ef8da84e86db60e5e0cbe73
+      internalID: 1524178633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c66b167542490c4eb88352ae1c5be82
+      internalID: 1437168341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff125561f3eb014da3c0f1a6176dd9c
+      internalID: -639314116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38dd8429d9b18e469780c070e178b1d
+      internalID: -1874090047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f864d9a85ce58e648915c6f4e1395455
+      internalID: 1090431424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbff0e471e734e444b03c415a80b5325
+      internalID: 1561099776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62ab95b0a388174e9b0c478215e8acb
+      internalID: -1494411342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e85f48bcbe016647b2cc91f0c372bf9
+      internalID: 1800994853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0aaf2754bc7d44faac386720252a98
+      internalID: -617712056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bbb0243f680fb4797047a713b85dcf
+      internalID: -904906162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c51d2038d07e9c44a75c1a83c17e1fc
+      internalID: -267248758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e5b5b759cd7c4989c6e0752110f1b
+      internalID: 139470883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00b207d3cd30554b8f101edf7bbe6ed
+      internalID: 529971056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d009db9b68f92439a8632a37f7bdd6
+      internalID: 1958022420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_Vumpire_Standard_Default_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42e800f75ba1f241afd9a21c69fa046
+      internalID: 859005751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c85c4dd2cb34b04498c0a37ace4a8f25
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Unit_Human_Vumpire_Standard_Default_0: -8073559175004031485
+      Unit_Human_Vumpire_Standard_Default_1: -1040661256267694499
+      Unit_Human_Vumpire_Standard_Default_10: 5817447958703895001
+      Unit_Human_Vumpire_Standard_Default_11: -5138449426426342023
+      Unit_Human_Vumpire_Standard_Default_12: -6813001797691299629
+      Unit_Human_Vumpire_Standard_Default_13: -6912950435441750890
+      Unit_Human_Vumpire_Standard_Default_14: 8372981991613971851
+      Unit_Human_Vumpire_Standard_Default_15: -3744966706176949820
+      Unit_Human_Vumpire_Standard_Default_16: -5257349157609655892
+      Unit_Human_Vumpire_Standard_Default_17: -7164473943656485755
+      Unit_Human_Vumpire_Standard_Default_18: 7450255842045553025
+      Unit_Human_Vumpire_Standard_Default_19: -545364751786857015
+      Unit_Human_Vumpire_Standard_Default_2: -3573849972930208366
+      Unit_Human_Vumpire_Standard_Default_20: 358112919209548484
+      Unit_Human_Vumpire_Standard_Default_21: 1524178633
+      Unit_Human_Vumpire_Standard_Default_22: 1437168341
+      Unit_Human_Vumpire_Standard_Default_23: -639314116
+      Unit_Human_Vumpire_Standard_Default_24: -1874090047
+      Unit_Human_Vumpire_Standard_Default_25: 1090431424
+      Unit_Human_Vumpire_Standard_Default_26: 1561099776
+      Unit_Human_Vumpire_Standard_Default_27: -1494411342
+      Unit_Human_Vumpire_Standard_Default_28: 1800994853
+      Unit_Human_Vumpire_Standard_Default_29: -617712056
+      Unit_Human_Vumpire_Standard_Default_3: -6699595113780431796
+      Unit_Human_Vumpire_Standard_Default_30: -904906162
+      Unit_Human_Vumpire_Standard_Default_31: -267248758
+      Unit_Human_Vumpire_Standard_Default_32: 139470883
+      Unit_Human_Vumpire_Standard_Default_33: 529971056
+      Unit_Human_Vumpire_Standard_Default_34: 1958022420
+      Unit_Human_Vumpire_Standard_Default_35: 859005751
+      Unit_Human_Vumpire_Standard_Default_4: -2407402625242708808
+      Unit_Human_Vumpire_Standard_Default_5: 5343097112463874
+      Unit_Human_Vumpire_Standard_Default_6: 4779373799342747302
+      Unit_Human_Vumpire_Standard_Default_7: -8095577154384316529
+      Unit_Human_Vumpire_Standard_Default_8: 4240240567118136533
+      Unit_Human_Vumpire_Standard_Default_9: -1224683418154261409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

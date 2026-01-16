@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 21004e5bc0ddf0a48b55342504ea8fa4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3809979478208703432
+    second: Unit_Human_EliteStalker_0
+  - first:
+      213: 6369606490703946756
+    second: Unit_Human_EliteStalker_1
+  - first:
+      213: -3789703531921184038
+    second: Unit_Human_EliteStalker_2
+  - first:
+      213: 4228813278715248417
+    second: Unit_Human_EliteStalker_3
+  - first:
+      213: 718024116347530777
+    second: Unit_Human_EliteStalker_4
+  - first:
+      213: 6722545705707435868
+    second: Unit_Human_EliteStalker_5
+  - first:
+      213: -2263974420475226730
+    second: Unit_Human_EliteStalker_6
+  - first:
+      213: 1890217137490561938
+    second: Unit_Human_EliteStalker_7
+  - first:
+      213: 5001161115978846956
+    second: Unit_Human_EliteStalker_8
+  - first:
+      213: 4146768020178260499
+    second: Unit_Human_EliteStalker_9
+  - first:
+      213: 288416443331826822
+    second: Unit_Human_EliteStalker_10
+  - first:
+      213: -7306248782158212950
+    second: Unit_Human_EliteStalker_11
+  - first:
+      213: 2746682744599376083
+    second: Unit_Human_EliteStalker_12
+  - first:
+      213: 7983177323119645768
+    second: Unit_Human_EliteStalker_13
+  - first:
+      213: -7115123037694561947
+    second: Unit_Human_EliteStalker_14
+  - first:
+      213: -6367653888234582305
+    second: Unit_Human_EliteStalker_15
+  - first:
+      213: -8880238691121532047
+    second: Unit_Human_EliteStalker_16
+  - first:
+      213: 8208025384169072360
+    second: Unit_Human_EliteStalker_17
+  - first:
+      213: 940630471925512487
+    second: Unit_Human_EliteStalker_18
+  - first:
+      213: -5467365408593653155
+    second: Unit_Human_EliteStalker_19
+  - first:
+      213: -1496213538139575117
+    second: Unit_Human_EliteStalker_20
+  - first:
+      213: 1040645591162305179
+    second: Unit_Human_EliteStalker_21
+  - first:
+      213: -8875289177637979458
+    second: Unit_Human_EliteStalker_22
+  - first:
+      213: -6981521235853725267
+    second: Unit_Human_EliteStalker_23
+  - first:
+      213: -3273371322092728485
+    second: Unit_Human_EliteStalker_24
+  - first:
+      213: -2163116799056721338
+    second: Unit_Human_EliteStalker_25
+  - first:
+      213: 1840072066601130936
+    second: Unit_Human_EliteStalker_26
+  - first:
+      213: -2242256547404336908
+    second: Unit_Human_EliteStalker_27
+  - first:
+      213: -6724052152315903939
+    second: Unit_Human_EliteStalker_28
+  - first:
+      213: -2429945270349386049
+    second: Unit_Human_EliteStalker_29
+  - first:
+      213: -7502692410666121896
+    second: Unit_Human_EliteStalker_30
+  - first:
+      213: 1283826050415893275
+    second: Unit_Human_EliteStalker_31
+  - first:
+      213: -8044695976868400695
+    second: Unit_Human_EliteStalker_32
+  - first:
+      213: -3624489511915483090
+    second: Unit_Human_EliteStalker_33
+  - first:
+      213: 60994486407168212
+    second: Unit_Human_EliteStalker_34
+  - first:
+      213: 7539243352303701123
+    second: Unit_Human_EliteStalker_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e93cdaaec26f8c49a004f8092865e4d
+      internalID: 1975824412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4aa0485c040a24cb4143e639b2a902
+      internalID: -217417584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7235634df97244bfc96d845d9cff3
+      internalID: -1304017676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a288a0b977896cd42a217be6057eda80
+      internalID: -359105785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558766055c85a8a43af40c70044f8e3f
+      internalID: 2028487611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e2e5f60f14eb24cae67cd72042181b
+      internalID: 516159495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44555e9df756a74c816e6833feb0024
+      internalID: -1696874658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17354d71628e194b973b5eb91c961d5
+      internalID: -951502498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4aba918b1d2a2438738371f1a56b7c
+      internalID: 1157174980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100a0827f29046b47a13201d30a2f46c
+      internalID: -1003726982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3eb1b2538f48e4db048ed97f66b584
+      internalID: -1496333465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5348e7c2ff4dc4ba9b5cd703568c6c
+      internalID: 578840850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70c9fdd7de041c4093071513c4151d2
+      internalID: 1270960055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c72bb95dbf1aa547b039027ba3e52b3
+      internalID: 954683441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7484273062ca74eb57b20120db0c49
+      internalID: -1568969824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b88f3e8f076e49b769058bf7b1564
+      internalID: -1906850463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23cbb18159ba3649b4178bcfa3654fc
+      internalID: -1990784929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54b6a8c74d280e4ea06266128f6aa1e
+      internalID: -1283730993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e690b00e53762ca40af91c1ff536eb5e
+      internalID: 1939656164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e789cb804d112f45bd526133f560659
+      internalID: 965091124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1555a8a210db40441aef0b16013cb95d
+      internalID: 1853945465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40727953e2a98b41ad1ad882afdd74e
+      internalID: 1142137189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b672d02d5ca1ed14b8a9526b2279101d
+      internalID: 137595959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bacafcef466714caa155a06c011c9e
+      internalID: 443158801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22889dde03c5b8d4eaa0900a67b6e888
+      internalID: 68689354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f273dde0e04a954ea4b97c8250a27ba
+      internalID: 523033631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2032b696af6fcad4a9d39038bbce37ae
+      internalID: 1523611913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434d7c590277a8458e32a5a61a00646
+      internalID: -320751433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba17b4ce2930d45802581acd76c274
+      internalID: -1456177844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f97d72d6e583346b9ec1a27979ec6d
+      internalID: -976022346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b093fc2675fc349a3f9c05978b9f68
+      internalID: -1975950583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d862cd3e64dda8c4c88aee115ea05749
+      internalID: 1451195654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0993d437797cc4bb62104b3f957921
+      internalID: -1132988920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d5b555eebc9d54a9913de7178aacea
+      internalID: 2084870612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f2dc06edc18840932d8bba2bf4ae9
+      internalID: -1963390013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Human_EliteStalker_Standard_Default_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f4cc899e9c8f3438d3e80bbfc73796
+      internalID: -2089677649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ed35c028f26c41a408702d626cbfabcb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Unit_Human_EliteStalker_Standard_Default_0: 1975824412
+      Unit_Human_EliteStalker_Standard_Default_1: -217417584
+      Unit_Human_EliteStalker_Standard_Default_10: -1496333465
+      Unit_Human_EliteStalker_Standard_Default_11: 578840850
+      Unit_Human_EliteStalker_Standard_Default_12: 1270960055
+      Unit_Human_EliteStalker_Standard_Default_13: 954683441
+      Unit_Human_EliteStalker_Standard_Default_14: -1568969824
+      Unit_Human_EliteStalker_Standard_Default_15: -1906850463
+      Unit_Human_EliteStalker_Standard_Default_16: -1990784929
+      Unit_Human_EliteStalker_Standard_Default_17: -1283730993
+      Unit_Human_EliteStalker_Standard_Default_18: 1939656164
+      Unit_Human_EliteStalker_Standard_Default_19: 965091124
+      Unit_Human_EliteStalker_Standard_Default_2: -1304017676
+      Unit_Human_EliteStalker_Standard_Default_20: 1853945465
+      Unit_Human_EliteStalker_Standard_Default_21: 1142137189
+      Unit_Human_EliteStalker_Standard_Default_22: 137595959
+      Unit_Human_EliteStalker_Standard_Default_23: 443158801
+      Unit_Human_EliteStalker_Standard_Default_24: 68689354
+      Unit_Human_EliteStalker_Standard_Default_25: 523033631
+      Unit_Human_EliteStalker_Standard_Default_26: 1523611913
+      Unit_Human_EliteStalker_Standard_Default_27: -320751433
+      Unit_Human_EliteStalker_Standard_Default_28: -1456177844
+      Unit_Human_EliteStalker_Standard_Default_29: -976022346
+      Unit_Human_EliteStalker_Standard_Default_3: -359105785
+      Unit_Human_EliteStalker_Standard_Default_30: -1975950583
+      Unit_Human_EliteStalker_Standard_Default_31: 1451195654
+      Unit_Human_EliteStalker_Standard_Default_32: -1132988920
+      Unit_Human_EliteStalker_Standard_Default_33: 2084870612
+      Unit_Human_EliteStalker_Standard_Default_34: -1963390013
+      Unit_Human_EliteStalker_Standard_Default_35: -2089677649
+      Unit_Human_EliteStalker_Standard_Default_4: 2028487611
+      Unit_Human_EliteStalker_Standard_Default_5: 516159495
+      Unit_Human_EliteStalker_Standard_Default_6: -1696874658
+      Unit_Human_EliteStalker_Standard_Default_7: -951502498
+      Unit_Human_EliteStalker_Standard_Default_8: 1157174980
+      Unit_Human_EliteStalker_Standard_Default_9: -1003726982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

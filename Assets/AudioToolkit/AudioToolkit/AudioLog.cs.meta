@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 05d7cb8e9cc905d439d9dfc08175fe17
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/AudioToolkit/AudioLog.cs
+  uploadId: 689468

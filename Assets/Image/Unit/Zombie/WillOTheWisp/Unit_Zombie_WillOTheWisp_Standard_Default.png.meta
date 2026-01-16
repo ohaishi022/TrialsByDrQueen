@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: 090c496078e93cf4d9a124918ff82b33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2532392458238712240
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_0
+  - first:
+      213: 5318191299967548450
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_1
+  - first:
+      213: -1783951734218163392
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_2
+  - first:
+      213: -5540083575932037571
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_3
+  - first:
+      213: 3780289563500239835
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_4
+  - first:
+      213: -6705838702452173856
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_5
+  - first:
+      213: -6053803497438836939
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_6
+  - first:
+      213: -1084770015411452781
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_7
+  - first:
+      213: -8401868221792068401
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_8
+  - first:
+      213: 4410108079421678440
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_9
+  - first:
+      213: -3249325316622153156
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_10
+  - first:
+      213: -7556370217487704541
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_11
+  - first:
+      213: -4284380770607213842
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_12
+  - first:
+      213: 451559604808893960
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_13
+  - first:
+      213: 8029920340279264506
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_14
+  - first:
+      213: -8446985344639263078
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_15
+  - first:
+      213: 3156486592294335103
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_16
+  - first:
+      213: -1484001768715094314
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_17
+  - first:
+      213: 5187532836027282241
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_18
+  - first:
+      213: 5554597091476095209
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_19
+  - first:
+      213: 623890324851565170
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_20
+  - first:
+      213: -6889868837942339356
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_21
+  - first:
+      213: 1162396306955983917
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_22
+  - first:
+      213: 7164291818467609553
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_23
+  - first:
+      213: 3211526042888666360
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_24
+  - first:
+      213: 3199407465375627036
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_25
+  - first:
+      213: -6058799226870336822
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_26
+  - first:
+      213: 6878324967927884897
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_27
+  - first:
+      213: -311853140770283923
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_28
+  - first:
+      213: -8582714392591181960
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_29
+  - first:
+      213: -8453738518022233598
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_30
+  - first:
+      213: 2236609795565414709
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_31
+  - first:
+      213: -8193336563357248468
+    second: Unit_Zombie_WillOTheWisp_Standard_Default_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b95239068dd42320800000000000000
+      internalID: 2532392458238712240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c73227fc20ec940800000000000000
+      internalID: 5318191299967548450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bfb7979512e37e0800000000000000
+      internalID: -1783951734218163392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36589e175bad13b0800000000000000
+      internalID: -5540083575932037571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb5c844459467430800000000000000
+      internalID: 3780289563500239835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3954baa3310f2a0800000000000000
+      internalID: -6705838702452173856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53704232bc19cfba0800000000000000
+      internalID: -6053803497438836939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394c7681b6f12f0f0800000000000000
+      internalID: -1084770015411452781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccd0760e51966b80800000000000000
+      internalID: -8401868221792068401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8636207bee9d33d30800000000000000
+      internalID: 4410108079421678440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a8d0717d318e2d0800000000000000
+      internalID: -3249325316622153156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32edd439251622790800000000000000
+      internalID: -7556370217487704541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee251758362da84c0800000000000000
+      internalID: -4284380770607213842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806cc8f6113444600800000000000000
+      internalID: 451559604808893960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af487015102007f60800000000000000
+      internalID: 8029920340279264506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e98d5459746ca80800000000000000
+      internalID: -8446985344639263078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72bcf7f4d71ecb20800000000000000
+      internalID: 3156486592294335103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d67fa10144c76be0800000000000000
+      internalID: -1484001768715094314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143b41031a1ddf740800000000000000
+      internalID: 5187532836027282241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0c9db00a4e51d40800000000000000
+      internalID: 5554597091476095209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272a497e1f088a800800000000000000
+      internalID: 623890324851565170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d965cbc44260a0800000000000000
+      internalID: -6889868837942339356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c56545849a12010800000000000000
+      internalID: 1162396306955983917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbcffa637dac6360800000000000000
+      internalID: 7164291818467609553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc7b4dabe1a19c20800000000000000
+      internalID: 3211526042888666360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1772797324966c20800000000000000
+      internalID: 3199407465375627036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac27bfc3432daeba0800000000000000
+      internalID: -6058799226870336822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16caa0b8d18b47f50800000000000000
+      internalID: 6878324967927884897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e1c4288331cabf0800000000000000
+      internalID: -311853140770283923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87758fcabb214e880800000000000000
+      internalID: -8582714392591181960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2026f319b994eaa80800000000000000
+      internalID: -8453738518022233598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539e5dd42c80a0f10800000000000000
+      internalID: 2236609795565414709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_WillOTheWisp_Standard_Default_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c241fd74ecb6b4e80800000000000000
+      internalID: -8193336563357248468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 262a03e8a4046d84693d0aeea075826d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Unit_Zombie_WillOTheWisp_Standard_Default_0: 2532392458238712240
+      Unit_Zombie_WillOTheWisp_Standard_Default_1: 5318191299967548450
+      Unit_Zombie_WillOTheWisp_Standard_Default_10: -3249325316622153156
+      Unit_Zombie_WillOTheWisp_Standard_Default_11: -7556370217487704541
+      Unit_Zombie_WillOTheWisp_Standard_Default_12: -4284380770607213842
+      Unit_Zombie_WillOTheWisp_Standard_Default_13: 451559604808893960
+      Unit_Zombie_WillOTheWisp_Standard_Default_14: 8029920340279264506
+      Unit_Zombie_WillOTheWisp_Standard_Default_15: -8446985344639263078
+      Unit_Zombie_WillOTheWisp_Standard_Default_16: 3156486592294335103
+      Unit_Zombie_WillOTheWisp_Standard_Default_17: -1484001768715094314
+      Unit_Zombie_WillOTheWisp_Standard_Default_18: 5187532836027282241
+      Unit_Zombie_WillOTheWisp_Standard_Default_19: 5554597091476095209
+      Unit_Zombie_WillOTheWisp_Standard_Default_2: -1783951734218163392
+      Unit_Zombie_WillOTheWisp_Standard_Default_20: 623890324851565170
+      Unit_Zombie_WillOTheWisp_Standard_Default_21: -6889868837942339356
+      Unit_Zombie_WillOTheWisp_Standard_Default_22: 1162396306955983917
+      Unit_Zombie_WillOTheWisp_Standard_Default_23: 7164291818467609553
+      Unit_Zombie_WillOTheWisp_Standard_Default_24: 3211526042888666360
+      Unit_Zombie_WillOTheWisp_Standard_Default_25: 3199407465375627036
+      Unit_Zombie_WillOTheWisp_Standard_Default_26: -6058799226870336822
+      Unit_Zombie_WillOTheWisp_Standard_Default_27: 6878324967927884897
+      Unit_Zombie_WillOTheWisp_Standard_Default_28: -311853140770283923
+      Unit_Zombie_WillOTheWisp_Standard_Default_29: -8582714392591181960
+      Unit_Zombie_WillOTheWisp_Standard_Default_3: -5540083575932037571
+      Unit_Zombie_WillOTheWisp_Standard_Default_30: -8453738518022233598
+      Unit_Zombie_WillOTheWisp_Standard_Default_31: 2236609795565414709
+      Unit_Zombie_WillOTheWisp_Standard_Default_32: -8193336563357248468
+      Unit_Zombie_WillOTheWisp_Standard_Default_4: 3780289563500239835
+      Unit_Zombie_WillOTheWisp_Standard_Default_5: -6705838702452173856
+      Unit_Zombie_WillOTheWisp_Standard_Default_6: -6053803497438836939
+      Unit_Zombie_WillOTheWisp_Standard_Default_7: -1084770015411452781
+      Unit_Zombie_WillOTheWisp_Standard_Default_8: -8401868221792068401
+      Unit_Zombie_WillOTheWisp_Standard_Default_9: 4410108079421678440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

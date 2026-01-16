@@ -1,0 +1,299 @@
+{
+  "waves": [
+    {
+      "wave": 1,
+      "groups": [
+        {
+          "groupId": "A",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 5, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 7, "y": -5 }, { "x": -7, "y": -5 }],
+              "spawnTime": 1
+            }
+          ]
+        },
+        {
+          "groupId": "B",
+          "spawnAfterGroupsCleared": ["A"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": -5, "y": -5 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "groups": [
+        {
+          "groupId": "A",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 7, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [
+                { "x": 2, "y": -5 },
+                { "x": -2, "y": -5 },
+                { "x": 4, "y": -5 },
+                { "x": -4, "y": -5 }
+              ],
+              "spawnTime": 2.5
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 5, "y": -5 }],
+              "spawnTime": 2.5
+            }
+          ]
+        },
+        {
+          "groupId": "B",
+          "spawnAfterGroupsCleared": ["A"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": -10, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": -5, "y": -5 }]
+            }
+          ]
+        },
+        {
+          "groupId": "C",
+          "spawnAfterGroupsCleared": ["B"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 0, "y": -5 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "groups": [
+        {
+          "groupId": "A",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 7, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [
+                { "x": 2, "y": -5 },
+                { "x": -2, "y": -5 },
+                { "x": 4, "y": -5 },
+                { "x": -4, "y": -5 }
+              ],
+              "spawnTime": 1
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 5, "y": -5 }],
+              "spawnTime": 1
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [
+                { "x": 1, "y": -5 },
+                { "x": -1, "y": -5 },
+                { "x": 5, "y": -5 },
+                { "x": -5, "y": -5 }
+              ],
+              "spawnTime": 3
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -4, "y": -5 }],
+              "spawnTime": 4
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 4, "y": -5 }],
+              "spawnTime": 1
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -2, "y": -5 }],
+              "spawnTime": 0.5
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 2, "y": -5 }],
+              "spawnTime": 0.25
+            }
+          ]
+        },
+        {
+          "groupId": "B",
+          "spawnAfterGroupsCleared": ["A"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -10, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -5, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": -10, "y": -5 }],
+              "spawnTime": 1
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": -5, "y": -5 }],
+              "spawnTime": 1
+            }
+          ]
+        },
+        {
+          "groupId": "C",
+          "spawnAfterGroupsCleared": ["B"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 0, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 0, "y": -5 }],
+              "spawnTime": 1
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 0, "y": -5 }],
+              "spawnTime": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 4,
+      "groups": [
+        {
+          "groupId": "A",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 0, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 1, "y": -4 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 2, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 3, "y": -6 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 2, "y": -7 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 1, "y": -8 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": 0, "y": -9 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -1, "y": -8 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -2, "y": -7 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -3, "y": -6 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -2, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "spawnPosition": [{ "x": -1, "y": -4 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": 2, "y": -5 }],
+              "spawnTime": 1
+            }
+          ]
+        },
+        {
+          "groupId": "B",
+          "spawnAfterGroupsCleared": ["A"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "spawnPosition": [{ "x": 7, "y": -4 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "spawnPosition": [{ "x": -7, "y": -4 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "spawnPosition": [{ "x": 7, "y": -10 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "spawnPosition": [{ "x": -7, "y": -10 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "spawnPosition": [{ "x": -5, "y": -5 }],
+              "spawnTime": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 5,
+      "groups": [
+        {
+          "groupId": "Boss",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Vumpire",
+              "spawnPosition": [{ "x": -10, "y": -5 }],
+              "spawnTime": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

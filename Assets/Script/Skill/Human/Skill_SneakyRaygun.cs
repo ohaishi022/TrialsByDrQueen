@@ -1,0 +1,217 @@
+﻿using UnityEngine;
+using CS.AudioToolkit;
+using System.Collections;
+
+public class Skill_SneakyRaygun : Skill_Base
+{
+    [Header("Projectile")]
+    public GameObject projectilePrefab;
+    public float projectileSpeed = 18f;
+    public float projectileRange = 6f;
+    public float projectileLifetime = 2f;
+    public int pierceCount = 0; // 0 = 무한 관통
+
+    [Header("Energy")]
+    public int maxEnergy = 40;
+    private int currentEnergy;
+
+    [Header("Fire")]
+    public float fireInterval = 0.1f;
+    private Coroutine fireRoutine;
+    private float fireTimer = 0f;
+
+    [Header("Reload")]
+    public float reloadInterval = 0.1f;
+    public float reloadDelay = 1f;
+    private Coroutine reloadRoutine;
+
+    [Header("Audio")]
+    public string shootLoopSE = "SE_Skill_SneakyRaygun_Loop";
+    public string shootEndSE = "SE_Skill_SneakyRaygun_End";
+
+    private void Awake()
+    {
+        cooldownTime = 2f;
+        canDeactivate = true;
+        currentEnergy = maxEnergy;
+    }
+
+    public override void ActivateSkill(Unit_Base user)
+    {
+        if (isOnCooldown || currentEnergy <= 0)
+            return;
+
+        if (fireRoutine != null)
+            return;
+
+        base.ActivateSkill(user);
+        fireRoutine = StartCoroutine(SkillRoutine(user));
+    }
+
+    protected override IEnumerator SkillRoutine(Unit_Base user)
+    {
+        Unit_Base u = user ?? owner;
+        if (u == null)
+        {
+            Cleanup();
+            yield break;
+        }
+
+        AudioController.Play(shootLoopSE, u.transform);
+        //FireOnce(u);
+        fireTimer = 0f;
+
+        while (isActive && currentEnergy > 0)
+        {
+            float dt = GetSkillDeltaTime();
+            float speedMul = u.SpeedMultiplier;
+
+            // Freeze → 전부 정지
+            if (dt <= 0f || speedMul <= 0f)
+            {
+                yield return null;
+                continue;
+            }
+
+            fireTimer += dt * speedMul;
+
+            if (fireTimer >= fireInterval)
+            {
+                fireTimer -= fireInterval;
+                FireOnce(u);
+            }
+
+            yield return null;
+        }
+
+        Cleanup();
+
+        if (currentEnergy > 0 && currentEnergy < maxEnergy && reloadRoutine == null)
+        {
+            reloadRoutine = StartCoroutine(RegenerateEnergy(u));
+        }
+
+        if (currentEnergy <= 0)
+        {
+            yield return StartCooldownScaled(u);
+
+            // Freeze 중이면 대기
+            while (u.SpeedMultiplier <= 0f)
+                yield return null;
+
+            currentEnergy = maxEnergy;
+            Debug.Log($"[SneakyRaygun] 쿨다운 종료 → 탄창 {currentEnergy}/{maxEnergy}");
+        }
+    }
+
+    private void FireOnce(Unit_Base u)
+    {
+        if (reloadRoutine != null)
+        {
+            StopCoroutine(reloadRoutine);
+            reloadRoutine = null;
+        }
+
+        if (currentEnergy <= 0)
+            return;
+
+        Vector3 spawnPos = u.SkillPosition;
+
+        GameObject go = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
+        Projectile_Base p = go.GetComponent<Projectile_Base>();
+
+        if (p == null)
+        {
+            Destroy(go);
+            return;
+        }
+
+        p.shooter = u.gameObject;
+        p.positiveUnitType = u.unitType;
+        p.direction = u.DirectionVector.normalized;
+        p.speed = projectileSpeed;
+        p.range = projectileRange;
+        p.lifetime = projectileLifetime;
+        p.pierceCount = pierceCount;
+
+        currentEnergy--;
+        Debug.Log($"[SneakyRaygun] 탄창 {currentEnergy}/{maxEnergy}");
+    }
+
+    public override void DeactivateSkill()
+    {
+        if (!isActive)
+            return;
+
+        isActive = false;
+    }
+
+    private void Cleanup()
+    {
+        isActive = false;
+
+        AudioController.Stop(shootLoopSE);
+        AudioController.Play(shootEndSE, owner.transform);
+
+        fireRoutine = null;
+    }
+
+    protected override void OnCanceled()
+    {
+        AudioController.Stop(shootLoopSE);
+    }
+
+    private IEnumerator RegenerateEnergy(Unit_Base u)
+    {
+        float delayTimer = 0f;
+        float tickTimer = 0f;
+
+        // ⏱ 재장전 딜레이
+        while (delayTimer < reloadDelay)
+        {
+            if (u.SpeedMultiplier > 0f)
+                delayTimer += Time.deltaTime * u.SpeedMultiplier;
+
+            yield return null;
+        }
+
+        while (currentEnergy < maxEnergy)
+        {
+            if (u.SpeedMultiplier <= 0f)
+            {
+                yield return null;
+                continue;
+            }
+
+            tickTimer += Time.deltaTime * u.SpeedMultiplier;
+
+            if (tickTimer >= reloadInterval)
+            {
+                tickTimer -= reloadInterval;
+                currentEnergy = Mathf.Min(currentEnergy + 1, maxEnergy);
+                Debug.Log($"[SneakyRaygun] 탄창 {currentEnergy}/{maxEnergy}");
+            }
+
+            yield return null;
+        }
+
+        reloadRoutine = null;
+    }
+
+    // ⏱ 배속 적용 쿨다운
+    private IEnumerator StartCooldownScaled(Unit_Base u)
+    {
+        isOnCooldown = true;
+        float timer = 0f;
+
+        while (timer < cooldownTime)
+        {
+            if (u.SpeedMultiplier > 0f)
+                timer += Time.deltaTime * u.SpeedMultiplier;
+
+            yield return null;
+        }
+
+        isOnCooldown = false;
+    }
+}

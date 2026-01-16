@@ -1,0 +1,11 @@
+fileFormatVersion: 1
+guid: 6a1d24eaf8acf424b83ac09a9bedf40e
+labels:
+- singleton
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/Shared Auxiliary Code/UnitySingleton.cs
+  uploadId: 689468

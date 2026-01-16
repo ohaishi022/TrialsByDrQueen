@@ -1,0 +1,13 @@
+{
+    "asset": "0f36a22f856c61f448294488670dc920",
+    "fileName": "019a2aff-0eb6-75cc-b5da-84339b34aa32.wav",
+    "prompt": "Frankenstein, boss, music, halloween, loop",
+    "negativePrompt": "",
+    "model": "ee31b223-3fe1-4ae6-bf54-d8a80bb4b0e1",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "249e2ab6706068ab09d95f92ba0c955c",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

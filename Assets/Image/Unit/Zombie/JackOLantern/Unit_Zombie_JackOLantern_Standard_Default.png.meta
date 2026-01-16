@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: 4f7405c89136c2a48b6ab12fe155a391
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3337010236537710237
+    second: Unit_Zombie_JackOLantern_Standard_Default_0
+  - first:
+      213: 2571055000679967064
+    second: Unit_Zombie_JackOLantern_Standard_Default_1
+  - first:
+      213: 851013318876026409
+    second: Unit_Zombie_JackOLantern_Standard_Default_2
+  - first:
+      213: -8425959219275254383
+    second: Unit_Zombie_JackOLantern_Standard_Default_3
+  - first:
+      213: -8335666572699944029
+    second: Unit_Zombie_JackOLantern_Standard_Default_4
+  - first:
+      213: 7404446519554421600
+    second: Unit_Zombie_JackOLantern_Standard_Default_5
+  - first:
+      213: -6125394892042133216
+    second: Unit_Zombie_JackOLantern_Standard_Default_6
+  - first:
+      213: -1817626525231451228
+    second: Unit_Zombie_JackOLantern_Standard_Default_7
+  - first:
+      213: -2709952804904256052
+    second: Unit_Zombie_JackOLantern_Standard_Default_8
+  - first:
+      213: 6472325916247546893
+    second: Unit_Zombie_JackOLantern_Standard_Default_9
+  - first:
+      213: 352454773425268468
+    second: Unit_Zombie_JackOLantern_Standard_Default_10
+  - first:
+      213: 8011464962366230895
+    second: Unit_Zombie_JackOLantern_Standard_Default_11
+  - first:
+      213: 6843800833413254893
+    second: Unit_Zombie_JackOLantern_Standard_Default_12
+  - first:
+      213: 8116558633438719567
+    second: Unit_Zombie_JackOLantern_Standard_Default_13
+  - first:
+      213: 4807678203954819964
+    second: Unit_Zombie_JackOLantern_Standard_Default_14
+  - first:
+      213: 3706334231642836329
+    second: Unit_Zombie_JackOLantern_Standard_Default_15
+  - first:
+      213: 7051752934787091682
+    second: Unit_Zombie_JackOLantern_Standard_Default_16
+  - first:
+      213: -6609237122032398703
+    second: Unit_Zombie_JackOLantern_Standard_Default_17
+  - first:
+      213: 232793774294016206
+    second: Unit_Zombie_JackOLantern_Standard_Default_18
+  - first:
+      213: 9048062243891100616
+    second: Unit_Zombie_JackOLantern_Standard_Default_19
+  - first:
+      213: -4706304707636677670
+    second: Unit_Zombie_JackOLantern_Standard_Default_20
+  - first:
+      213: -1831108507429079124
+    second: Unit_Zombie_JackOLantern_Standard_Default_21
+  - first:
+      213: 4609043658020862414
+    second: Unit_Zombie_JackOLantern_Standard_Default_22
+  - first:
+      213: 1881707720921885187
+    second: Unit_Zombie_JackOLantern_Standard_Default_23
+  - first:
+      213: -8120879323162480839
+    second: Unit_Zombie_JackOLantern_Standard_Default_24
+  - first:
+      213: 3667016852844263418
+    second: Unit_Zombie_JackOLantern_Standard_Default_25
+  - first:
+      213: 4159652576048741742
+    second: Unit_Zombie_JackOLantern_Standard_Default_26
+  - first:
+      213: 8063549994668425503
+    second: Unit_Zombie_JackOLantern_Standard_Default_27
+  - first:
+      213: -4210798514129392602
+    second: Unit_Zombie_JackOLantern_Standard_Default_28
+  - first:
+      213: -5575719462333126264
+    second: Unit_Zombie_JackOLantern_Standard_Default_29
+  - first:
+      213: 1274260646784049287
+    second: Unit_Zombie_JackOLantern_Standard_Default_30
+  - first:
+      213: -7763101698985144852
+    second: Unit_Zombie_JackOLantern_Standard_Default_31
+  - first:
+      213: 8140155081032877506
+    second: Unit_Zombie_JackOLantern_Standard_Default_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d962ca041217f4e20800000000000000
+      internalID: 3337010236537710237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859658da6e83ea320800000000000000
+      internalID: 2571055000679967064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9265bbaca186fcb00800000000000000
+      internalID: 851013318876026409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195bb239bbaf01b80800000000000000
+      internalID: -8425959219275254383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab3f189a63c15c80800000000000000
+      internalID: -8335666572699944029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0633b6c01e0e1c660800000000000000
+      internalID: 7404446519554421600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02126d6acc93efaa0800000000000000
+      internalID: -6125394892042133216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a370453e4e76c6e0800000000000000
+      internalID: -1817626525231451228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdbb992840546ad0800000000000000
+      internalID: -2709952804904256052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c5d74012252d950800000000000000
+      internalID: 6472325916247546893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f66761cfbb24e400800000000000000
+      internalID: 352454773425268468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61d35ccfe07e2f60800000000000000
+      internalID: 8011464962366230895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee8e1519901afe50800000000000000
+      internalID: 6843800833413254893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eaeb0e21fc3a070800000000000000
+      internalID: 8116558633438719567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c737d15badd48b240800000000000000
+      internalID: 4807678203954819964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d01ffb85b8f6330800000000000000
+      internalID: 3706334231642836329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8dc1beebdcd160800000000000000
+      internalID: 7051752934787091682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e0fe0dad54744a0800000000000000
+      internalID: -6609237122032398703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0a7be44bc0b3300800000000000000
+      internalID: 232793774294016206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbb0c01cac219d70800000000000000
+      internalID: 9048062243891100616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad33190bdc8dfaeb0800000000000000
+      internalID: -4706304707636677670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca77e7d93889696e0800000000000000
+      internalID: -1831108507429079124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9b99689cc96ff30800000000000000
+      internalID: 4609043658020862414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aa8a4d33b2d1a10800000000000000
+      internalID: 1881707720921885187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fe5172847dc4f80800000000000000
+      internalID: -8120879323162480839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af73723266cd3e230800000000000000
+      internalID: 3667016852844263418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d7c68aafd0ab930800000000000000
+      internalID: 4159652576048741742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1180d46ffb77ef60800000000000000
+      internalID: 8063549994668425503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c2398af0d3095c0800000000000000
+      internalID: -4210798514129392602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889e660c0b01f92b0800000000000000
+      internalID: -5575719462333126264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780a2d29e451fa110800000000000000
+      internalID: 1274260646784049287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced42cca22ce34490800000000000000
+      internalID: -7763101698985144852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unit_Zombie_JackOLantern_Standard_Default_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c54e85fae3a7f070800000000000000
+      internalID: 8140155081032877506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c9d72e83c36d00b4f857d5a984144040
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Unit_Zombie_JackOLantern_Standard_Default_0: 3337010236537710237
+      Unit_Zombie_JackOLantern_Standard_Default_1: 2571055000679967064
+      Unit_Zombie_JackOLantern_Standard_Default_10: 352454773425268468
+      Unit_Zombie_JackOLantern_Standard_Default_11: 8011464962366230895
+      Unit_Zombie_JackOLantern_Standard_Default_12: 6843800833413254893
+      Unit_Zombie_JackOLantern_Standard_Default_13: 8116558633438719567
+      Unit_Zombie_JackOLantern_Standard_Default_14: 4807678203954819964
+      Unit_Zombie_JackOLantern_Standard_Default_15: 3706334231642836329
+      Unit_Zombie_JackOLantern_Standard_Default_16: 7051752934787091682
+      Unit_Zombie_JackOLantern_Standard_Default_17: -6609237122032398703
+      Unit_Zombie_JackOLantern_Standard_Default_18: 232793774294016206
+      Unit_Zombie_JackOLantern_Standard_Default_19: 9048062243891100616
+      Unit_Zombie_JackOLantern_Standard_Default_2: 851013318876026409
+      Unit_Zombie_JackOLantern_Standard_Default_20: -4706304707636677670
+      Unit_Zombie_JackOLantern_Standard_Default_21: -1831108507429079124
+      Unit_Zombie_JackOLantern_Standard_Default_22: 4609043658020862414
+      Unit_Zombie_JackOLantern_Standard_Default_23: 1881707720921885187
+      Unit_Zombie_JackOLantern_Standard_Default_24: -8120879323162480839
+      Unit_Zombie_JackOLantern_Standard_Default_25: 3667016852844263418
+      Unit_Zombie_JackOLantern_Standard_Default_26: 4159652576048741742
+      Unit_Zombie_JackOLantern_Standard_Default_27: 8063549994668425503
+      Unit_Zombie_JackOLantern_Standard_Default_28: -4210798514129392602
+      Unit_Zombie_JackOLantern_Standard_Default_29: -5575719462333126264
+      Unit_Zombie_JackOLantern_Standard_Default_3: -8425959219275254383
+      Unit_Zombie_JackOLantern_Standard_Default_30: 1274260646784049287
+      Unit_Zombie_JackOLantern_Standard_Default_31: -7763101698985144852
+      Unit_Zombie_JackOLantern_Standard_Default_32: 8140155081032877506
+      Unit_Zombie_JackOLantern_Standard_Default_4: -8335666572699944029
+      Unit_Zombie_JackOLantern_Standard_Default_5: 7404446519554421600
+      Unit_Zombie_JackOLantern_Standard_Default_6: -6125394892042133216
+      Unit_Zombie_JackOLantern_Standard_Default_7: -1817626525231451228
+      Unit_Zombie_JackOLantern_Standard_Default_8: -2709952804904256052
+      Unit_Zombie_JackOLantern_Standard_Default_9: 6472325916247546893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

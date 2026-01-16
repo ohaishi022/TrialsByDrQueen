@@ -1,0 +1,104 @@
+{
+  "waves": [
+    {
+      "wave": 1,
+      "groups": [
+        {
+          "groupId": "A",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": 5, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": 7, "y": -5 }, { "x": -7, "y": -5 }],
+              "spawnTime": 1
+            }
+          ]
+        },
+        {
+          "groupId": "B",
+          "spawnAfterGroupsCleared": ["A"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_WillOTheWisp",
+              "spawnPosition": [{ "x": -5, "y": -5 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "groups": [
+        {
+          "groupId": "A",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": 7, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [
+                { "x": 2, "y": -5 },
+                { "x": -2, "y": -5 },
+                { "x": 4, "y": -5 },
+                { "x": -4, "y": -5 }
+              ],
+              "spawnTime": 2.5
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": 5, "y": -5 }],
+              "spawnTime": 2.5
+            }
+          ]
+        },
+        {
+          "groupId": "B",
+          "spawnAfterGroupsCleared": ["A"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": -10, "y": -5 }]
+            },
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": -5, "y": -5 }]
+            }
+          ]
+        },
+        {
+          "groupId": "C",
+          "spawnAfterGroupsCleared": ["B"],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_JackOLantern",
+              "spawnPosition": [{ "x": 0, "y": -5 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "groups": [
+        {
+          "groupId": "Boss",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Vumpire",
+              "spawnPosition": [{ "x": -10, "y": -5 }],
+              "spawnTime": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

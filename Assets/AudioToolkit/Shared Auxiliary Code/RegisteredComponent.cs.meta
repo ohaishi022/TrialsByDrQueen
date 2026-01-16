@@ -1,0 +1,9 @@
+fileFormatVersion: 1
+guid: e2dd5b7157147f8469e5e8ff395718a2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/Shared Auxiliary Code/RegisteredComponent.cs
+  uploadId: 689468

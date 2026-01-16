@@ -1,0 +1,20 @@
+{
+  "waves": [
+    {
+      "wave": 1,
+      "groups": [
+        {
+          "groupId": "Boss",
+          "spawnAfterGroupsCleared": [],
+          "enemies": [
+            {
+              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Vumpire",
+              "spawnPosition": [{ "x": 0, "y": -5 }],
+              "spawnTime": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

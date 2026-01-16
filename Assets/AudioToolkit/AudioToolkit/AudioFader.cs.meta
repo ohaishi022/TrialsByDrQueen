@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d73ade03a3332b34d861a7d2c6b2d8ea
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/AudioToolkit/AudioFader.cs
+  uploadId: 689468

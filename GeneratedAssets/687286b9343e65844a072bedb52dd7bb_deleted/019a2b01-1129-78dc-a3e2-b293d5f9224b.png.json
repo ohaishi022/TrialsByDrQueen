@@ -1,0 +1,20 @@
+{
+    "asset": "687286b9343e65844a072bedb52dd7bb",
+    "fileName": "019a2b01-1129-78dc-a3e2-b293d5f9224b.png",
+    "prompt": "체력바",
+    "negativePrompt": "",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "d45ae774ca70beaf8ca4c719520b964a",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

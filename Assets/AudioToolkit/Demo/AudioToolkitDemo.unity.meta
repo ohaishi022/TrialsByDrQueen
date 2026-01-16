@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cb5ba717501ea9a4da69d3310b6a4935
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2647
+  packageName: Audio Toolkit
+  packageVersion: 11.1
+  assetPath: Assets/AudioToolkit/Demo/AudioToolkitDemo.unity
+  uploadId: 689468

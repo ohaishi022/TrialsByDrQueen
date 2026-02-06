@@ -22,6 +22,8 @@ public class Unit_EliteStalker : Unit_Base
 
         var sneakyRaygun = AddSkill<Skill_SneakyRaygun>();
         sneakyRaygun.projectilePrefab = projectile;
+
+        var turboFlip = AddSkill<Skill_TurboFlip>();
     }
 
     private void Update()
@@ -42,6 +44,8 @@ public class Unit_EliteStalker : Unit_Base
         {
             if (Input.GetKeyDown(KeyCode.Mouse0)) ActivateSkill(0);
             else if (Input.GetKeyUp(KeyCode.Mouse0)) DeactivateSkill(0);
+
+            if (Input.GetKeyDown(KeyCode.Mouse1)) ActivateSkill(1);
         }
     }
 

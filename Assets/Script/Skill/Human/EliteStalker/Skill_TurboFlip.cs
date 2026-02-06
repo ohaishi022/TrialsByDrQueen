@@ -14,6 +14,12 @@ public class Skill_TurboFlip : Skill_Base
     public GameObject flipEffect;
     public string SE_Flip = "";
 
+    private void Awake()
+    {
+        cooldownTime = 20f;
+        canDeactivate = false;
+    }
+
     protected override IEnumerator SkillRoutine(Unit_Base user)
     {
         Unit_Base u = user ?? owner;
@@ -34,6 +40,7 @@ public class Skill_TurboFlip : Skill_Base
         // 2. 주변 아군 및 자신에게 배속 버프 부여
         ApplySpeedBuffToAllies(u);
 
+        yield return new WaitForSeconds(buffDuration);
         isActive = false;
         yield return StartCooldown(); // 쿨타임 시작
     }

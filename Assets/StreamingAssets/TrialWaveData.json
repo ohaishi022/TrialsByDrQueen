@@ -1,0 +1,141 @@
+{
+  "zombieCatalog": [
+    { "id": "QueenCrusher", "prefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher", "cost": 1 },
+    { "id": "QueenShooter", "prefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenShooter", "cost": 2 },
+    { "id": "StrawWingHacker", "prefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker", "cost": 10 },
+
+    { "id": "Vumpire", "prefab": "Prefab/Unit/Human/Unit_Human_Vumpire", "cost": 999 }
+  ],
+
+  "waves": [
+    {
+      "wave": 1,
+      "groups": [
+        {
+          "groupId": "Intro",
+          "spawnAfterGroupsCleared": [],
+          "spawnPoints": [
+            { "x": 5, "y": -5 },
+            { "x": -5, "y": -5 },
+            { "x": 0, "y": -5 }
+          ],
+          "budget": { "startPoint": 0, "gainPerSecond": 0, "maxPoint": 0, "duration": 6 },
+          "allowedEnemies": [],
+          "spawnRule": { "cooldown": 0.1, "maxAlive": 20, "spawnCountLimit": 50 },
+          "completeCondition": { "type": "AllDead" },
+          "fixedSpawns": [
+            { "time": 0.0, "zombieId": "QueenCrusher", "position": { "x": 0, "y": -5 } },
+
+            { "time": 1.0, "zombieId": "QueenCrusher", "position": { "x": 5, "y": -5 } },
+            { "time": 1.5, "zombieId": "QueenCrusher", "position": { "x": -5, "y": -5 } },
+
+            { "time": 2.5, "zombieId": "QueenCrusher", "position": { "x": 5, "y": -5 } },
+            { "time": 2.5, "zombieId": "QueenCrusher", "position": { "x": 0, "y": -5 } },
+            { "time": 2.5, "zombieId": "QueenCrusher", "position": { "x": -5, "y": -5 } },
+
+            { "time": 4.0, "zombieId": "QueenCrusher", "position": { "x": 5, "y": -5 } },
+            { "time": 4.4, "zombieId": "QueenCrusher", "position": { "x": 0, "y": -5 } },
+            { "time": 4.8, "zombieId": "QueenCrusher", "position": { "x": -5, "y": -5 } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "wave": 2,
+      "groups": [
+        {
+          "groupId": "BudgetStart",
+          "spawnAfterGroupsCleared": [],
+          "spawnPoints": [
+            { "x": 5, "y": -5 },
+            { "x": -5, "y": -5 },
+            { "x": 0, "y": -5 }
+          ],
+          "budget": { "startPoint": 6, "gainPerSecond": 2.0, "maxPoint": 20, "duration": 15 },
+          "allowedEnemies": [
+            { "zombieId": "QueenCrusher", "weight": 70 },
+            { "zombieId": "QueenShooter", "weight": 30, "minWavePointToUse": 2 }
+          ],
+          "spawnRule": { "cooldown": 0.4, "maxAlive": 12, "spawnCountLimit": 50 },
+          "completeCondition": { "type": "BudgetSpentAndAllDead" },
+          "fixedSpawns": [
+            { "time": 0.0, "zombieId": "QueenCrusher", "position": { "x": 5, "y": -5 } },
+            { "time": 0.0, "zombieId": "QueenCrusher", "position": { "x": -5, "y": -5 } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "wave": 3,
+      "groups": [
+        {
+          "groupId": "HeavyBudget",
+          "spawnAfterGroupsCleared": [],
+          "spawnPoints": [
+            { "x": 5, "y": -5 },
+            { "x": -5, "y": -5 },
+            { "x": 0, "y": -5 }
+          ],
+          "budget": { "startPoint": 10, "gainPerSecond": 2.5, "maxPoint": 30, "duration": 18 },
+          "allowedEnemies": [
+            { "zombieId": "QueenCrusher", "weight": 55 },
+            { "zombieId": "QueenShooter", "weight": 35 },
+            { "zombieId": "StrawWingHacker", "weight": 10, "minWavePointToUse": 12 }
+          ],
+          "spawnRule": { "cooldown": 0.35, "maxAlive": 15, "spawnCountLimit": 80 },
+          "completeCondition": { "type": "BudgetSpentAndAllDead" },
+          "fixedSpawns": []
+        }
+      ]
+    },
+
+    {
+      "wave": 4,
+      "groups": [
+        {
+          "groupId": "ShooterFocus",
+          "spawnAfterGroupsCleared": [],
+          "spawnPoints": [
+            { "x": 5, "y": -5 },
+            { "x": -5, "y": -5 },
+            { "x": 0, "y": -5 }
+          ],
+          "budget": { "startPoint": 15, "gainPerSecond": 3.0, "maxPoint": 35, "duration": 20 },
+          "allowedEnemies": [
+            { "zombieId": "QueenCrusher", "weight": 35 },
+            { "zombieId": "QueenShooter", "weight": 55, "minWavePointToUse": 4 },
+            { "zombieId": "StrawWingHacker", "weight": 10, "minWavePointToUse": 14 }
+          ],
+          "spawnRule": { "cooldown": 0.3, "maxAlive": 18, "spawnCountLimit": 100 },
+          "completeCondition": { "type": "BudgetSpentAndAllDead" },
+          "fixedSpawns": []
+        }
+      ]
+    },
+
+    {
+      "wave": 5,
+      "groups": [
+        {
+          "groupId": "Boss",
+          "spawnAfterGroupsCleared": [],
+          "spawnPoints": [
+            { "x": 0, "y": -5 }
+          ],
+
+          "budget": { "startPoint": 0, "gainPerSecond": 0, "maxPoint": 0, "duration": 2 },
+
+          "allowedEnemies": [],
+          "spawnRule": { "cooldown": 999, "maxAlive": 1, "spawnCountLimit": 1 },
+          "completeCondition": { "type": "AllDead" },
+
+          "fixedSpawns": [
+            { "time": 0.0, "zombieId": "Vumpire", "position": { "x": 0, "y": -5 } }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -620,10 +620,7 @@ public class Unit_Movement : MonoBehaviour
         currentPathSource = PathSource.DiagonalThenStraight;
     }
 
-    // =========================================================
     // Utils
-    // =========================================================
-
     private IEnumerator StopMovingRoutine(float duration)
     {
         stopMoving = true;

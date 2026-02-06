@@ -9,7 +9,8 @@ public enum SelectedGameMode
     None,
     Endless,
     Lobby,
-    Halloween
+    Halloween,
+    Trial
 }
 
 
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     public EndlessWaveDataList endlessWaveDataList { get; private set; }
     public EndlessWaveDataList halloweenWaveDataList { get; private set; }
+    public TrialWaveDataList trialWaveDataList { get; private set; }
 
     public TMP_Text loadingText; // 인스펙터에 연결
 
@@ -48,6 +50,8 @@ public class GameManager : MonoBehaviour
 
         // 2) Halloween
         halloweenWaveDataList = TryLoadWaveData(Path.Combine(Application.streamingAssetsPath, "WaveData_Halloween.json"),
+                                                onFailKey: "Loading_Error_FileNotFound");
+        trialWaveDataList = TryLoadTrialWaveData(Path.Combine(Application.streamingAssetsPath, "TrialWaveData.json"),
                                                 onFailKey: "Loading_Error_FileNotFound");
 
         // 데이터가 정상적으로 로드된 경우에만 씬 이동
@@ -79,6 +83,36 @@ public class GameManager : MonoBehaviour
         catch
         {
             Debug.LogError("[WaveData] 예외 발생");
+            ShowText("Loading_Error_ParseNotFound");
+            return null;
+        }
+    }
+
+    private TrialWaveDataList TryLoadTrialWaveData(string path, string onFailKey)
+    {
+        Debug.Log($"[TrialWaveData] 파일 경로: {path}");
+        if (!File.Exists(path))
+        {
+            Debug.LogError($"[TrialWaveData] 파일이 존재하지 않음: {path}");
+            ShowText(onFailKey);
+            return null;
+        }
+
+        try
+        {
+            string json = File.ReadAllText(path);
+            var data = JsonUtility.FromJson<TrialWaveDataList>(json);
+            if (data == null)
+            {
+                Debug.LogError("[TrialWaveData] 파싱 실패");
+                ShowText("Loading_Error_ParseNotFound");
+                return null;
+            }
+            return data;
+        }
+        catch
+        {
+            Debug.LogError("[TrialWaveData] 예외 발생");
             ShowText("Loading_Error_ParseNotFound");
             return null;
         }

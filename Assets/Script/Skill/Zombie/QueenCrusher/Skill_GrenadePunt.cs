@@ -8,7 +8,7 @@ public class Skill_GrenadePunt : Skill_Base
 
     private void Awake()
     {
-        cooldownTime = 6f;
+        cooldownTime = 12f;
         canDeactivate = false;
     }
 

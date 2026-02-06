@@ -161,8 +161,8 @@ GameObject:
   m_Component:
   - component: {fileID: 413673892062238460}
   - component: {fileID: 3119569535749948053}
-  - component: {fileID: 5557790813898014290}
   - component: {fileID: 187070020917867741}
+  - component: {fileID: 2946010065016320767}
   - component: {fileID: 2657315994257749873}
   m_Layer: 7
   m_Name: Projectile_GrenadePunt
@@ -234,47 +234,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &5557790813898014290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1931182615209935107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bafc58fbb5f2d441b721850bf7619f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shooter: {fileID: 0}
-  positiveUnitType: 2
-  direction: {x: 0, y: 0}
-  speed: 7.5
-  range: 15
-  lifetime: 5
-  canPierce: 0
-  SE_Start: []
-  SE_Hit: []
-  SE_Destroy: []
-  hitEffect: {fileID: 176073021960704015, guid: 5353cf739962a7140877ea42d5c35b42, type: 3}
-  killEfftct: {fileID: 0}
-  animator: {fileID: 0}
-  projectileDamage: 75
-  healingAmount: 0
-  canExplode: 1
-  explosionRadius: 2.5
-  explosionDamage: 15
-  affectEnemies: 1
-  affectAllies: 0
-  destroyOnAllyHit: 0
-  isHoming: 1
-  homingTarget: {fileID: 0}
-  homingTurnSpeed: 15
-  homingRadius: 2.5
-  unitLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  unitLayerName: Unit
 --- !u!50 &187070020917867741
 Rigidbody2D:
   serializedVersion: 5
@@ -302,6 +261,43 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &2946010065016320767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931182615209935107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16654b50b2731ca4c84c126ede43fdbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Projectile_GrenadePunt
+  shooter: {fileID: 0}
+  positiveUnitType: 0
+  animator: {fileID: 0}
+  direction: {x: 0, y: 0}
+  speed: 6
+  range: 18
+  lifetime: 3
+  damage: 75
+  affectEnemies: 1
+  affectAllies: 0
+  pierceCount: 1
+  isHoming: 1
+  homingRadius: 2.5
+  homingTurnSpeed: 6
+  unitLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  canExplode: 1
+  explosionRadius: 2
+  explosionDamage: 15
+  SE_Start: []
+  SE_Hit: []
+  SE_Destroy: []
+  hitEffect: {fileID: 0}
+  destroyEffect: {fileID: 176073021960704015, guid: 5353cf739962a7140877ea42d5c35b42, type: 3}
 --- !u!82 &2657315994257749873
 AudioSource:
   m_ObjectHideFlags: 0

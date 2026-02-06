@@ -129,21 +129,30 @@ public class Unit_Status : MonoBehaviour
     {
         bool canMove = true;
         bool canCast = true;
-        float speedMul = 1f;
+
+        float slowMul = 1f;   // 1에 가까울수록 정상, 0.5면 50% 슬로우
+        float hasteMul = 1f;  // 1 이상만 의미 있게 (1.2면 20% 가속)
         float dmgMul = 1f;
 
         foreach (var b in _buffs.Values)
         {
             if (b.BlocksMove) canMove = false;
             if (b.BlocksCast) canCast = false;
-            speedMul *= b.SpeedMultiplier;
+
+            float sm = b.SpeedMultiplier;
+
+            // 슬로우는 "가장 강한 것만" (최소 배율)
+            if (sm < 1f) slowMul = Mathf.Min(slowMul, sm);
+            // 헤이스트는 "가장 큰 것만" (최대 배율)
+            else if (sm > 1f) hasteMul = Mathf.Max(hasteMul, sm);
+
             dmgMul *= b.DamageTakenMultiplier;
         }
 
         CanMove = canMove;
         CanCast = canCast;
-        SpeedMul = Mathf.Clamp(speedMul, 0f, 999f);
-        DamageTakenMul = Mathf.Clamp(dmgMul, 0f, 999f);
+        SpeedMul = Mathf.Clamp(slowMul * hasteMul, 0f, 99f);
+        DamageTakenMul = Mathf.Clamp(dmgMul, 0f, 99f);
     }
 
     // 간단한 풀(매 프레임 foreach 할당 줄이기)

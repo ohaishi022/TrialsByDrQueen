@@ -1,17 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 
-public class Projectile_Arrow : Projectile_Base
+public class Projectile_SneakyRaygun : Projectile_Base
 {
     private void Reset()
     {
-        speed = 18.75f;
-        range = 7f;
-        lifetime = 2f;
-
         affectEnemies = true;
         affectAllies = false;
 
-        pierceCount = 0; // 무한 관통
+        pierceCount = 1;
     }
 
     protected override void OnHitEnemy(Unit_Base unit, Collider2D col)

@@ -24,7 +24,6 @@ public class Debuff_Chill : Buff_Base
     public override void OnApply(Unit_Base unit)
     {
         base.OnApply(unit);
-
         AudioController.Play("SE_Debuff_IceBlock", unit.transform.position);//Chill
         // 필요하면 여기서 이펙트 / 아이콘 / 사운드
         // ex) unit.PlayStatusFX("Chill");

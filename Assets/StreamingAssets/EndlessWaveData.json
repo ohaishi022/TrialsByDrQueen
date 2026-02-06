@@ -12,7 +12,7 @@
               "spawnPosition": [{ "x": 5, "y": -5 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 7, "y": -5 }, { "x": -7, "y": -5 }],
               "spawnTime": 1
             }
@@ -23,7 +23,7 @@
           "spawnAfterGroupsCleared": ["A"],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -5, "y": -5 }]
             }
           ]
@@ -38,11 +38,11 @@
           "spawnAfterGroupsCleared": [],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 7, "y": -5 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [
                 { "x": 2, "y": -5 },
                 { "x": -2, "y": -5 },
@@ -52,7 +52,7 @@
               "spawnTime": 2.5
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 5, "y": -5 }],
               "spawnTime": 2.5
             }
@@ -63,7 +63,7 @@
           "spawnAfterGroupsCleared": ["A"],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -10, "y": -5 }]
             },
             {
@@ -77,7 +77,7 @@
           "spawnAfterGroupsCleared": ["B"],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 0, "y": -5 }]
             }
           ]
@@ -92,11 +92,11 @@
           "spawnAfterGroupsCleared": [],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 7, "y": -5 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [
                 { "x": 2, "y": -5 },
                 { "x": -2, "y": -5 },
@@ -106,12 +106,12 @@
               "spawnTime": 1
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 5, "y": -5 }],
               "spawnTime": 1
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [
                 { "x": 1, "y": -5 },
                 { "x": -1, "y": -5 },
@@ -121,22 +121,22 @@
               "spawnTime": 3
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -4, "y": -5 }],
               "spawnTime": 4
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 4, "y": -5 }],
               "spawnTime": 1
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -2, "y": -5 }],
               "spawnTime": 0.5
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 2, "y": -5 }],
               "spawnTime": 0.25
             }
@@ -147,20 +147,20 @@
           "spawnAfterGroupsCleared": ["A"],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -10, "y": -5 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_VumPet",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -5, "y": -5 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -10, "y": -5 }],
               "spawnTime": 1
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -5, "y": -5 }],
               "spawnTime": 1
             }
@@ -175,12 +175,12 @@
               "spawnPosition": [{ "x": 0, "y": -5 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 0, "y": -5 }],
               "spawnTime": 1
             },
             {
-              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_StrawWingHacker",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 0, "y": -5 }],
               "spawnTime": 2.5
             }
@@ -255,19 +255,19 @@
           "spawnAfterGroupsCleared": ["A"],
           "enemies": [
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 7, "y": -4 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -7, "y": -4 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": 7, "y": -10 }]
             },
             {
-              "unitPrefab": "Prefab/Unit/Human/Unit_Human_Archer",
+              "unitPrefab": "Prefab/Unit/Zombie/Unit_Zombie_QueenCrusher",
               "spawnPosition": [{ "x": -7, "y": -10 }]
             },
             {

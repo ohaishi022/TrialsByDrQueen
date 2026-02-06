@@ -6,10 +6,6 @@ public class Skill_SneakyRaygun : Skill_Base
 {
     [Header("Projectile")]
     public GameObject projectilePrefab;
-    public float projectileSpeed = 18f;
-    public float projectileRange = 6f;
-    public float projectileLifetime = 2f;
-    public int pierceCount = 0; // 0 = 무한 관통
 
     [Header("Energy")]
     public int maxEnergy = 40;
@@ -19,6 +15,8 @@ public class Skill_SneakyRaygun : Skill_Base
     public float fireInterval = 0.1f;
     private Coroutine fireRoutine;
     private float fireTimer = 0f;
+    private bool activationLocked;
+    private Coroutine lockRoutine;
 
     [Header("Reload")]
     public float reloadInterval = 0.1f;
@@ -38,14 +36,12 @@ public class Skill_SneakyRaygun : Skill_Base
 
     public override void ActivateSkill(Unit_Base user)
     {
-        if (isOnCooldown || currentEnergy <= 0)
-            return;
-
-        if (fireRoutine != null)
-            return;
+        if (activationLocked) return;
+        if (isOnCooldown || currentEnergy <= 0) return;
+        if (fireRoutine != null) return;
 
         base.ActivateSkill(user);
-        fireRoutine = StartCoroutine(SkillRoutine(user));
+        //fireRoutine = StartCoroutine(SkillRoutine(user));
     }
 
     protected override IEnumerator SkillRoutine(Unit_Base user)
@@ -58,26 +54,19 @@ public class Skill_SneakyRaygun : Skill_Base
         }
 
         AudioController.Play(shootLoopSE, u.transform);
-        //FireOnce(u);
-        fireTimer = 0f;
 
+        FireOnce(u);
+
+        fireTimer = 0f;
         while (isActive && currentEnergy > 0)
         {
-            float dt = GetSkillDeltaTime();
-            float speedMul = u.SpeedMultiplier;
+            if (u.SpeedMultiplier <= 0f) { yield return null; continue; }
 
-            // Freeze → 전부 정지
-            if (dt <= 0f || speedMul <= 0f)
-            {
-                yield return null;
-                continue;
-            }
-
-            fireTimer += dt * speedMul;
+            fireTimer += Time.deltaTime * u.SpeedMultiplier;
 
             if (fireTimer >= fireInterval)
             {
-                fireTimer -= fireInterval;
+                fireTimer = 0;
                 FireOnce(u);
             }
 
@@ -100,7 +89,7 @@ public class Skill_SneakyRaygun : Skill_Base
                 yield return null;
 
             currentEnergy = maxEnergy;
-            Debug.Log($"[SneakyRaygun] 쿨다운 종료 → 탄창 {currentEnergy}/{maxEnergy}");
+            //Debug.Log($"[SneakyRaygun] 쿨다운 종료 → 탄창 {currentEnergy}/{maxEnergy}");
         }
     }
 
@@ -129,13 +118,9 @@ public class Skill_SneakyRaygun : Skill_Base
         p.shooter = u.gameObject;
         p.positiveUnitType = u.unitType;
         p.direction = u.DirectionVector.normalized;
-        p.speed = projectileSpeed;
-        p.range = projectileRange;
-        p.lifetime = projectileLifetime;
-        p.pierceCount = pierceCount;
 
         currentEnergy--;
-        Debug.Log($"[SneakyRaygun] 탄창 {currentEnergy}/{maxEnergy}");
+        //Debug.Log($"[SneakyRaygun] 탄창 {currentEnergy}/{maxEnergy}");
     }
 
     public override void DeactivateSkill()
@@ -144,6 +129,27 @@ public class Skill_SneakyRaygun : Skill_Base
             return;
 
         isActive = false;
+
+        if (lockRoutine != null) StopCoroutine(lockRoutine);
+        lockRoutine = StartCoroutine(ActivationLock(owner));
+    }
+
+    private IEnumerator ActivationLock(Unit_Base u)
+    {
+        activationLocked = true;
+        float t = 0f;
+
+        while (t < fireInterval)
+        {
+            // Freeze면 시간 안 흐르게
+            if (u != null && u.SpeedMultiplier > 0f)
+                t += Time.deltaTime * u.SpeedMultiplier;
+
+            yield return null;
+        }
+
+        activationLocked = false;
+        lockRoutine = null;
     }
 
     private void Cleanup()
@@ -166,7 +172,7 @@ public class Skill_SneakyRaygun : Skill_Base
         float delayTimer = 0f;
         float tickTimer = 0f;
 
-        // ⏱ 재장전 딜레이
+        // 재장전 딜레이
         while (delayTimer < reloadDelay)
         {
             if (u.SpeedMultiplier > 0f)
@@ -189,7 +195,7 @@ public class Skill_SneakyRaygun : Skill_Base
             {
                 tickTimer -= reloadInterval;
                 currentEnergy = Mathf.Min(currentEnergy + 1, maxEnergy);
-                Debug.Log($"[SneakyRaygun] 탄창 {currentEnergy}/{maxEnergy}");
+                //Debug.Log($"[SneakyRaygun] 탄창 {currentEnergy}/{maxEnergy}");
             }
 
             yield return null;
@@ -198,7 +204,7 @@ public class Skill_SneakyRaygun : Skill_Base
         reloadRoutine = null;
     }
 
-    // ⏱ 배속 적용 쿨다운
+    // 배속 적용 쿨다운
     private IEnumerator StartCooldownScaled(Unit_Base u)
     {
         isOnCooldown = true;

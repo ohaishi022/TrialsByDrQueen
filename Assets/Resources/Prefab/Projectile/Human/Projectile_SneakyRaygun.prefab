@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 4583802978178820992}
   - component: {fileID: 2581041484898052470}
   - component: {fileID: 7036291777070230600}
-  - component: {fileID: 5379108360469102646}
+  - component: {fileID: 1754097361607304754}
   - component: {fileID: 5705206203762020200}
   m_Layer: 7
   m_Name: Projectile_SneakyRaygun
@@ -399,7 +399,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &5379108360469102646
+--- !u!114 &1754097361607304754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -408,38 +408,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 4739203637764366386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bafc58fbb5f2d441b721850bf7619f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 79e3a02b11300b24c917f8db1a68f67f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::Projectile_SneakyRaygun
   shooter: {fileID: 0}
   positiveUnitType: 0
+  animator: {fileID: 5052884150053555712}
   direction: {x: 0, y: 0}
   speed: 24
   range: 24
-  lifetime: 10
-  canPierce: 0
+  lifetime: 2
+  damage: 24
+  affectEnemies: 1
+  affectAllies: 0
+  pierceCount: 1
+  isHoming: 0
+  homingRadius: 0
+  homingTurnSpeed: 0
+  unitLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  canExplode: 1
+  explosionRadius: 10
+  explosionDamage: 4
   SE_Start: []
   SE_Hit: []
   SE_Destroy: []
   hitEffect: {fileID: 6368341878354926644, guid: 352d450fe6929364c84faa7dc44aee02, type: 3}
-  killEfftct: {fileID: 0}
-  animator: {fileID: 5052884150053555712}
-  projectileDamage: 24
-  healingAmount: 0
-  canExplode: 0
-  explosionRadius: 0
-  explosionDamage: 0
-  affectEnemies: 1
-  affectAllies: 0
-  destroyOnAllyHit: 0
-  isHoming: 0
-  homingTarget: {fileID: 0}
-  homingTurnSpeed: 6
-  homingRadius: 2.5
-  unitLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  unitLayerName: Unit
+  destroyEffect: {fileID: 0}
 --- !u!50 &5705206203762020200
 Rigidbody2D:
   serializedVersion: 5

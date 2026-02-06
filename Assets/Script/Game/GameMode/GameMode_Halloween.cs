@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using CS.AudioToolkit;
+using UnityEngine.SceneManagement;
 
 public class GameMode_Halloween : GameMode_Base
 {
@@ -235,6 +236,6 @@ public class GameMode_Halloween : GameMode_Base
 
         yield return new WaitForSeconds(8f);
 
-        Application.Quit();
+        SceneManager.LoadScene("Scene_Lobby");
     }
 }

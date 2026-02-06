@@ -10,7 +10,7 @@ public class Skill_StrawHacking : Skill_Base
 
     [Header("Timing")]
     public float startDelay = 0.1f;     // 시전 후 해킹 시작까지
-    public float tickInterval = 0.4f;
+    public float tickInterval = 1f;
 
     [Header("Area")]
     public float unitDamageArea = 2f;

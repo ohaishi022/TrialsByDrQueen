@@ -193,14 +193,14 @@ MonoBehaviour:
   canExplode: 0
   explosionRadius: 0
   explosionDamage: 0
-  SE_Start: []
+  SE_Start:
+  - SE_Projectile_Archer_Crossbow_Start
   SE_Hit:
   - SE_Projectile_Archer_Crossbow_Hit
   SE_Destroy: []
   hitEffect: {fileID: 0}
   destroyEffect: {fileID: 0}
-  damage: 20
-  chillDuration: 5
+  chillDuration: 2
   slowMultiplier: 0.5
 --- !u!1 &7657750571573153300
 GameObject:

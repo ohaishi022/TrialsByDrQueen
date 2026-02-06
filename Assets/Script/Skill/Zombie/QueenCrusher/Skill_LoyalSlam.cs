@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Skill_LoyalSlam : Skill_Base
 {
-    public float damage = 20f;
-
+    public float damage = 30f;
+    public float hitDelay = 0.5f;
     public Vector2 attackVector = new Vector2(2, 1);
+
+    public Vector2 hitSize = new Vector2(3f, 3f);
 
     public GameObject effect;     // 공격 이펙트
 
@@ -14,7 +16,7 @@ public class Skill_LoyalSlam : Skill_Base
 
     private void Awake()
     {
-        cooldownTime = 1.5f;   // 요구한 쿨타임
+        cooldownTime = 1.8f;   // 요구한 쿨타임
         canDeactivate = false;
 
         if (effect == null)
@@ -31,7 +33,8 @@ public class Skill_LoyalSlam : Skill_Base
         }
 
         isActive = true;
-
+        user.stopMoving = true;
+        yield return WaitScaled(hitDelay);
         AudioController.Play(SE_Hit, u.transform.position);
 
         // ===== 공격 이펙트 생성 =====
@@ -49,30 +52,46 @@ public class Skill_LoyalSlam : Skill_Base
             Instantiate(effect, user.transform.position, Quaternion.Euler(0, 0, zRotation), user.transform);
         }
 
-        Vector2 forward = u.DirectionVector;
-        Vector2 boxCenter = (Vector2)u.transform.position + forward * 0.5f;
+        ApplyDamage(user);
 
-        Vector2 boxSize;
-        if (Mathf.Abs(forward.x) > 0f)      // 좌/우
-            boxSize = new Vector2(2f, 1f);
-        else                                // 상/하
-            boxSize = new Vector2(1f, 2f);
+        user.stopMoving = false;
+        isActive = false;
 
-        Collider2D[] hits = Physics2D.OverlapBoxAll(boxCenter, boxSize, 0f);
+        yield return StartCooldown();
+    }
+
+    private void ApplyDamage(Unit_Base user)
+    {
+        Vector2 forward = user.DirectionVector;
+        Vector2 center = (Vector2)user.transform.position + forward * 0.5f;
+
+        Collider2D[] hits = Physics2D.OverlapBoxAll(center, hitSize, 0f);
 
         foreach (var h in hits)
         {
             var enemy = h.GetComponent<Unit_Base>();
-            if (enemy != null && enemy.unitType != u.unitType)
-            {
-                enemy.TakeDamage(damage);
+            if (!enemy || enemy.unitType == user.unitType)
+                continue;
 
-                AudioController.Play(SE_Hit, enemy.transform.position);
-            }
+            enemy.TakeDamage(damage);
+
+            bool enemyIsObject = enemy.CategoryHas(UnitCategory.Object);
+            bool enemyHidden = enemy.HasSpeical(Speical.Disappear);
+            bool enemyInvincible = enemy.HasBuff(BuffId.Invincible);
         }
+    }
 
-        isActive = false;
-        skillRoutine = null;
-        yield return StartCooldown();   // 쿨타임(배속 적용)
+    private void OnDrawGizmosSelected()
+    {
+        // 플레이 중이면 owner 기준, 아니면 자기 오브젝트 기준
+        Unit_Base u = owner != null ? owner : GetComponentInParent<Unit_Base>();
+        Transform t = u != null ? u.transform : transform;
+
+        Vector2 forward = (u != null) ? u.DirectionVector : Vector2.zero;
+
+        Vector2 center = (Vector2)t.position + forward * 0.5f;
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(center, hitSize);
     }
 }

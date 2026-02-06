@@ -4954,6 +4954,8 @@ MonoBehaviour:
   SE_Start:
   - SE_Unit_StrawWingHacker_Destroy_Spectacle
   effectDuration: 5
+  followUnitSpeed: 0
+  owner: {fileID: 0}
 --- !u!1 &1021626385905916774
 GameObject:
   m_ObjectHideFlags: 0

@@ -117,7 +117,7 @@ public class Unit_Base : MonoBehaviour
     }
 
     [Header("Status/Buffs")]
-    public Unit_Status Status;
+    public Unit_Status Status { get; private set; }
 
     [Header("Identity")]
     public string unitName;
@@ -152,24 +152,14 @@ public class Unit_Base : MonoBehaviour
     public float currentSpeed;
 
     [Header("Speed Multiplier")]
-    [SerializeField] private float _speedMultiplier = 1f;
-    public float SpeedMultiplier => _speedMultiplier;
-
-    [System.Serializable]
-    private class TimedModifier
+    public float SpeedMultiplier
     {
-        public float multiplier;
-        public float remaining; // < 0 infinite
-
-        public TimedModifier(float mul, float duration)
+        get
         {
-            multiplier = mul;
-            remaining = duration;
+            if (Status == null) return 1f;
+            return Mathf.Clamp(Status.SpeedMul, 0f, 99f);
         }
     }
-
-    [SerializeField] private List<TimedModifier> _slowBuffs = new List<TimedModifier>();
-    [SerializeField] private List<TimedModifier> _hasteBuffs = new List<TimedModifier>();
 
     public int level;
     public LevelStats[] levelStats;
@@ -275,9 +265,6 @@ public class Unit_Base : MonoBehaviour
 
     public void Update()
     {
-        UpdateTimedSpecials(Time.deltaTime);
-        UpdateMoveBuffs(Time.deltaTime);
-
         if (gameSceneManager.CurrentSituation == GameSituation.CutScene) return;
         if (spawnState != UnitSpawnState.Active) return;
 
@@ -365,142 +352,6 @@ public class Unit_Base : MonoBehaviour
 
     // Speed / Buff
     public bool HasSpeical(Speical speical) => (speicals & speical) == speical;
-
-    private void RecalculateSpeedMultiplier()
-    {
-        float slowMul = 1f;
-        float hasteMul = 1f;
-
-        foreach (var b in _slowBuffs)
-            slowMul = Mathf.Min(slowMul, b.multiplier);
-
-        foreach (var b in _hasteBuffs)
-            hasteMul = Mathf.Max(hasteMul, b.multiplier);
-
-        float mul = slowMul * hasteMul;
-
-        // 버프 집계 반영 (Freeze/Chill 같은 건 여기로 들어오게 됨)
-        if (Status != null)
-            mul *= Status.SpeedMul;
-
-        _speedMultiplier = mul;
-    }
-
-    private void UpdateMoveBuffs(float deltaTime)
-    {
-        bool changed = false;
-        changed |= TickBuffList(_slowBuffs, deltaTime);
-        changed |= TickBuffList(_hasteBuffs, deltaTime);
-
-        if (changed)
-            RecalculateSpeedMultiplier();
-    }
-
-    private bool TickBuffList(List<TimedModifier> list, float deltaTime)
-    {
-        bool changed = false;
-        for (int i = list.Count - 1; i >= 0; i--)
-        {
-            var b = list[i];
-            if (b.remaining >= 0f)
-            {
-                b.remaining -= deltaTime;
-                if (b.remaining <= 0f)
-                {
-                    list.RemoveAt(i);
-                    changed = true;
-                }
-            }
-        }
-        return changed;
-    }
-
-    public void AddSlow(float slowMultiplier, float duration)
-    {
-        slowMultiplier = Mathf.Clamp(slowMultiplier, 0.05f, 1f);
-        float dur = (duration > 0f) ? duration : -1f;
-        _slowBuffs.Add(new TimedModifier(slowMultiplier, dur));
-        RecalculateSpeedMultiplier();
-    }
-
-    public void AddHaste(float hasteMultiplier, float duration)
-    {
-        hasteMultiplier = Mathf.Max(1f, hasteMultiplier);
-        float dur = (duration > 0f) ? duration : -1f;
-        _hasteBuffs.Add(new TimedModifier(hasteMultiplier, dur));
-        RecalculateSpeedMultiplier();
-    }
-
-    public void ClearAllMoveBuffs()
-    {
-        if (_slowBuffs.Count == 0 && _hasteBuffs.Count == 0) return;
-        _slowBuffs.Clear();
-        _hasteBuffs.Clear();
-        RecalculateSpeedMultiplier();
-    }
-
-    // Timed Special
-    [System.Serializable]
-    private class TimedSpecial
-    {
-        public Speical type;
-        public float remaining; // <0 infinite
-
-        public TimedSpecial(Speical type, float duration)
-        {
-            this.type = type;
-            remaining = duration;
-        }
-    }
-
-    [SerializeField] private List<TimedSpecial> _timedSpecials = new List<TimedSpecial>();
-
-    public void ApplySpecial(Speical type, float duration)
-    {
-        float dur = duration > 0f ? duration : -1f;
-
-        var existing = _timedSpecials.Find(s => s.type == type);
-        if (existing != null)
-        {
-            if (existing.remaining < dur) existing.remaining = dur;
-        }
-        else
-        {
-            speicals |= type;
-            _timedSpecials.Add(new TimedSpecial(type, dur));
-        }
-
-        RecalculateSpeedMultiplier();
-    }
-
-    public void RemoveSpecial(Speical type)
-    {
-        speicals &= ~type;
-        RecalculateSpeedMultiplier();
-    }
-
-    private void UpdateTimedSpecials(float deltaTime)
-    {
-        bool changed = false;
-
-        for (int i = _timedSpecials.Count - 1; i >= 0; i--)
-        {
-            var s = _timedSpecials[i];
-            if (s.remaining >= 0f)
-            {
-                s.remaining -= deltaTime;
-                if (s.remaining <= 0f)
-                {
-                    RemoveSpecial(s.type);
-                    _timedSpecials.RemoveAt(i);
-                    changed = true;
-                }
-            }
-        }
-
-        if (changed)
-            RecalculateSpeedMultiplier();
-    }
 
     // Category
     public void CategoryOn(UnitCategory category) => categories |= category;
@@ -702,7 +553,6 @@ public class Unit_Base : MonoBehaviour
     public virtual void DestroyUnit(bool ignoreCutScene)
     {
         ForceCancelAllSkills();
-        ClearAllMoveBuffs();
 
         if (!ignoreCutScene && gameSceneManager.CurrentSituation == GameSituation.CutScene) return;
 

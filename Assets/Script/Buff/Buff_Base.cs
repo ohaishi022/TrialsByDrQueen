@@ -28,7 +28,7 @@ public abstract class Buff_Base
     /// <summary>강도/수치 (예: 독 DPS, 화상 DPS, 슬로우 배율 등)</summary>
     public float Intensity { get; protected set; }
 
-    public bool IsInfinite => Remaining < 0f;
+    public bool IsInfinite => Remaining == -1f; // -1이면 무한
     public bool IsExpired => !IsInfinite && Remaining <= 0f;
 
     protected Unit_Base owner;
@@ -52,6 +52,8 @@ public abstract class Buff_Base
     public virtual void Tick(Unit_Base unit, float dt)
     {
         if (!IsInfinite) Remaining -= dt;
+        if (Remaining < 0f)
+            Remaining = 0f;
     }
 
     /// <summary>재적용(중첩/갱신 처리)</summary>

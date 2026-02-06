@@ -26,9 +26,9 @@ public class Unit_QueenCrusher : Unit_Base
         AudioController.Play("SE_Unit_StrawWingHacker_Spawn", transform.position);
 
         // 스킬 추가
-        //skillLoyalSlam = AddSkill<Skill_LoyalSlam>();
-        //skillGrenadePunt = AddSkill<Skill_GrenadePunt>();
-        //skillGrenadePunt.grenadePrefab = projectile;
+        skillLoyalSlam = AddSkill<Skill_LoyalSlam>();
+        skillGrenadePunt = AddSkill<Skill_GrenadePunt>();
+        skillGrenadePunt.projectilePrefab = projectile;
     }
 
     private void Update()
@@ -71,19 +71,19 @@ public class Unit_QueenCrusher : Unit_Base
             return;
         }
 
-        if (!skillLoyalSlam.IsOnCooldown() && IsEnemyInFrontOrOverlap())
+        if (!skillLoyalSlam.IsOnCooldown() && IsEnemyInFrontOrOverlap())//오류있음
         {
             HaltMovement();
             ActivateSkill(0); // LoyalSlam
             return;
         }
 
-        //if (!skillGrenadePunt.IsOnCooldown() && IsEnemyInLongRange())
-        //{
-        //    HaltMovement();
-        //    ActivateSkill(1);  // Grenade Punt
-        //    return;
-        //}
+        if (!skillGrenadePunt.IsOnCooldown() && IsEnemyInLongRange())
+        {
+            HaltMovement();
+            ActivateSkill(1);  // Grenade Punt
+            return;
+        }
 
         MoveToPosition(target.position);
     }

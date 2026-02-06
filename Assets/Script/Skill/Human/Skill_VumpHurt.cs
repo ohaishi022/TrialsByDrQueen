@@ -33,12 +33,12 @@ public class Skill_VumpHurt : Skill_Base
         isActive = true;
         user.stopMoving = true;
 
-        // ▶ 이펙트 + 사운드
+        // 이펙트 + 사운드
         PlayEffect(user);
         if (!string.IsNullOrEmpty(SE_Hit))
             AudioController.Play(SE_Hit, user.transform.position);
 
-        // ▶ 타격 타이밍
+        // 타격 타이밍
         yield return WaitScaled(hitDelay);
 
         ApplyDamageAndHeal(user);

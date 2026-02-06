@@ -335,10 +335,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77bd7fcf9b429b5458af9a24a75ddc56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneManager: {fileID: 0}
   aiMoveStyle: 2
+  gameSceneManager: {fileID: 0}
+  gridManager: {fileID: 0}
+  movement: {fileID: 0}
   unitName: "\uC544\uCC98"
-  unitType: 1
+  unitType: 0
   unitState: 1
   speicals: 0
   categories: 0
@@ -346,20 +348,12 @@ MonoBehaviour:
   spawnTime: 1
   spawnState: 1
   Skills: []
-  stepStartPairs: 4
-  primaryIsLongerAxis: 1
-  forcePureStraightAfterStart: 1
   target: {fileID: 0}
-  currentPathIndex: 0
-  gridManager: {fileID: 0}
   sight: 9999
   health: 200
   currentHealth: 200
   speed: 6
   currentSpeed: 6
-  _speedMultiplier: 1
-  _slowBuffs: []
-  _hasteBuffs: []
   level: 1
   levelStats:
   - level: 1
@@ -369,32 +363,17 @@ MonoBehaviour:
   animator: {fileID: 1953316912308001096}
   sprite: {fileID: 0}
   characherShadow: {fileID: 0}
-  direction: 0
-  directionVector: {x: 0, y: -1}
   wallMask:
     serializedVersion: 2
     m_Bits: 8
   wallMask_AI:
     serializedVersion: 2
     m_Bits: 0
-  startPosition: {x: 0, y: 0, z: 0}
-  endPosition: {x: 0, y: 0, z: 0}
-  skillPosition: {x: 0, y: 0, z: 0}
-  isMoving: 0
-  stopMoving: 0
-  aiHalt: 0
   isDestroy: 0
   isDestroyGroup: 0
   destroyTime: 0
   hasDestroyEvent: 0
   maxSummonedUnits: 5
-  _timedSpecials: []
-  currentPathSource: 0
-  _dtsRepathEveryTiles: 3
-  _dtsStepCounter: 0
-  retargetTiles: 0
-  retargetInterval: 3
-  _dtsRepathPending: 0
   arrow: {fileID: 478060449432375796, guid: 339356d7d85ce01409c01bc94a999491, type: 3}
   backstepEffect: {fileID: 5162966423288441815, guid: 23b5dd2d10640654f9da37447f16e86a, type: 3}
   frontTiles: 5

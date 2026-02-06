@@ -10,7 +10,8 @@ public enum GameMode
     None,
     Endless,
     Lobby,
-    Halloween
+    Halloween,
+    Trial
 }
 
 public enum GameSituation
@@ -104,6 +105,9 @@ public class GameSceneManager : MonoBehaviour
             case GameMode.Lobby:
                 //prefab = uiLobbyPrefab;
                 break;
+            case GameMode.Trial:
+                prefab = uiEndlessPrefab;
+                break;
         }
 
         if (prefab == null)
@@ -123,6 +127,10 @@ public class GameSceneManager : MonoBehaviour
             case GameMode.Endless:
                 activeGameMode = gameObject.AddComponent<GameMode_Endless>();
                 Debug.Log("엔드리스 모드");
+                break;
+            case GameMode.Trial:
+                activeGameMode = gameObject.AddComponent<GameMode_Trial>();
+                Debug.Log("시련 모드");
                 break;
             case GameMode.Lobby:
                 //activeGameMode = gameObject.AddComponent<GameMode_Lobby>();
@@ -196,6 +204,8 @@ public class GameSceneManager : MonoBehaviour
                 return "Prefab/Map/Map_Halloween_2025";
             case GameMode.Lobby:
                 return "Prefab/Map/Map_Endless"; //return "Prefab/Map/Map_Lobby";
+            case GameMode.Trial:
+                return "Prefab/Map/Map_Endless";
             default:
                 return null;
         }

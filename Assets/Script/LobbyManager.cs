@@ -53,6 +53,16 @@ public class LobbyManager : MonoBehaviour
         GameManager.Instance.SetGameSettings(selectedGameMode, selectedUnit);
         GameManager.Instance.LoadGameScene();
     }
+
+    public void Push_TestTrial()
+    {
+        selectedUnit = "Unit_Human_EliteStalker"; //Unit_Human_EliteStalker
+        selectedUnitPrefabPath = "Unit_Human_EliteStalker"; // 나중에 수정하든 지우든 해야 됨
+        selectedGameMode = SelectedGameMode.Trial;
+        GameManager.Instance.SetGameSettings(selectedGameMode, selectedUnit);
+        GameManager.Instance.LoadGameScene();
+    }
+
     public void Push_TestHalloween()
     {
         selectedUnit = "Unit_Human_Archer"; //Unit_Human_EliteStalker

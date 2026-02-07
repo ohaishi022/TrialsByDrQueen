@@ -13,6 +13,7 @@ public class Skill_TurboFlip : Skill_Base
     [Header("FX / Audio")]
     public GameObject flipEffect;
     public string SE_Flip = "";
+    public string SE_Loop = "SE_Skill_TurboFlip_Loop";
 
     private void Awake()
     {
@@ -33,6 +34,8 @@ public class Skill_TurboFlip : Skill_Base
         if (flipEffect != null)
             Instantiate(flipEffect, u.transform.position, Quaternion.identity, u.transform);
 
+        AudioController.Play(SE_Loop);
+
         // 1. 자신에게 무적 부여
         if (u.Status != null)
             u.Status.Add(new Buff_Invincible(invincibleDuration));
@@ -41,6 +44,8 @@ public class Skill_TurboFlip : Skill_Base
         ApplySpeedBuffToAllies(u);
 
         yield return new WaitForSeconds(buffDuration);
+
+        AudioController.Stop(SE_Loop);
         isActive = false;
         yield return StartCooldown(); // 쿨타임 시작
     }
@@ -66,6 +71,12 @@ public class Skill_TurboFlip : Skill_Base
                 }
             }
         }
+    }
+
+    protected override void OnCanceled()
+    {
+        base.OnCanceled();
+        AudioController.Stop(SE_Loop);
     }
 
     private void OnDrawGizmosSelected()

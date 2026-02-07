@@ -2617,7 +2617,7 @@ MonoBehaviour:
       RandomDelay: 0
       overrideAudioSourceSettings: 1
       audioSource_MinDistance: 1
-      audioSource_MaxDistance: 6.4
+      audioSource_MaxDistance: 3.2
       spatialBlend: 0
       subItems:
       - SubItemType: 0
@@ -2675,7 +2675,7 @@ MonoBehaviour:
       RandomDelay: 0
       overrideAudioSourceSettings: 1
       audioSource_MinDistance: 1
-      audioSource_MaxDistance: 500
+      audioSource_MaxDistance: 9.6
       spatialBlend: 0
       subItems:
       - SubItemType: 0
@@ -4017,7 +4017,7 @@ MonoBehaviour:
         RandomStartPosition: 0
         individualSettings: []
     - Name: SE_Skill_TurboFlip_Loop
-      Loop: 2
+      Loop: 1
       loopSequenceCount: 0
       loopSequenceOverlap: 0
       loopSequenceRandomDelay: 0
@@ -4052,8 +4052,8 @@ MonoBehaviour:
         RandomDelay: 0
         ClipStopTime: 0
         ClipStartTime: 0
-        FadeIn: 0
-        FadeOut: 0
+        FadeIn: 1
+        FadeOut: 1
         RandomStartPosition: 0
         individualSettings: []
     _volume: 1
@@ -4066,7 +4066,7 @@ MonoBehaviour:
   _volume: 1
   _currentInspectorSelection:
     currentCategoryIndex: 1
-    currentItemIndex: 38
+    currentItemIndex: 22
     currentSubitemIndex: 0
     currentPlaylistEntryIndex: 0
     currentPlaylistIndex: 0

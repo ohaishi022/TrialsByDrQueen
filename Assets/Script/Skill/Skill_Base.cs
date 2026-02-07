@@ -142,6 +142,12 @@ public abstract class Skill_Base : MonoBehaviour
         return isOnCooldown;
     }
 
+    public void StartInitialCooldown()
+    {
+        if (!isOnCooldown)
+            StartCoroutine(StartCooldown());
+    }
+
     /* ───────────── Summon Helpers ───────────── */
 
     protected Unit_Base SummonUnit(

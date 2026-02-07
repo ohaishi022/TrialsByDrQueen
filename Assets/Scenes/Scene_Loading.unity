@@ -1173,7 +1173,7 @@ MonoBehaviour:
       RandomDelay: 0
       overrideAudioSourceSettings: 1
       audioSource_MinDistance: 1
-      audioSource_MaxDistance: 12.8
+      audioSource_MaxDistance: 3.2
       spatialBlend: 0
       subItems:
       - SubItemType: 0
@@ -2522,28 +2522,6 @@ MonoBehaviour:
         FadeOut: 0
         RandomStartPosition: 0
         individualSettings: []
-    - Name: '!!! Enter Unique Audio ID Here !!!'
-      Loop: 0
-      loopSequenceCount: 0
-      loopSequenceOverlap: 0
-      loopSequenceRandomDelay: 0
-      loopSequenceRandomPitch: 0
-      loopSequenceRandomVolume: 0
-      DestroyOnLoad: 1
-      Volume: 1
-      SubItemPickMode: 2
-      MinTimeBetweenPlayCalls: 0.1
-      MaxInstanceCount: 0
-      Delay: 0
-      PitchShift: 0
-      RandomVolume: 0
-      RandomPitch: 0
-      RandomDelay: 0
-      overrideAudioSourceSettings: 0
-      audioSource_MinDistance: 1
-      audioSource_MaxDistance: 500
-      spatialBlend: 0
-      subItems: []
     - Name: SE_Unit_StrawWingHacker_Destroy_Spectacle
       Loop: 0
       loopSequenceCount: 0
@@ -2903,7 +2881,7 @@ MonoBehaviour:
       RandomDelay: 0
       overrideAudioSourceSettings: 1
       audioSource_MinDistance: 1
-      audioSource_MaxDistance: 12.8
+      audioSource_MaxDistance: 3.2
       spatialBlend: 0
       subItems:
       - SubItemType: 0
@@ -4025,6 +4003,46 @@ MonoBehaviour:
         DisableOtherSubitems: 0
         ItemModeAudioID: 
         Clip: {fileID: 8300000, guid: a6c46deec1921d84b898f87591ab1163, type: 3}
+        Volume: 1
+        PitchShift: 0
+        Pan2D: 0
+        Delay: 0
+        RandomPitch: 0
+        RandomVolume: 0
+        RandomDelay: 0
+        ClipStopTime: 0
+        ClipStartTime: 0
+        FadeIn: 0
+        FadeOut: 0
+        RandomStartPosition: 0
+        individualSettings: []
+    - Name: SE_Skill_TurboFlip_Loop
+      Loop: 2
+      loopSequenceCount: 0
+      loopSequenceOverlap: 0
+      loopSequenceRandomDelay: 0
+      loopSequenceRandomPitch: 0
+      loopSequenceRandomVolume: 0
+      DestroyOnLoad: 1
+      Volume: 1
+      SubItemPickMode: 2
+      MinTimeBetweenPlayCalls: 0.1
+      MaxInstanceCount: 0
+      Delay: 0
+      PitchShift: 0
+      RandomVolume: 0
+      RandomPitch: 0
+      RandomDelay: 0
+      overrideAudioSourceSettings: 1
+      audioSource_MinDistance: 1
+      audioSource_MaxDistance: 3.2
+      spatialBlend: 0
+      subItems:
+      - SubItemType: 0
+        Probability: 1
+        DisableOtherSubitems: 0
+        ItemModeAudioID: 
+        Clip: {fileID: 8300000, guid: 51928a36f4717064d857a07d9748f34a, type: 3}
         Volume: 1
         PitchShift: 0
         Pan2D: 0

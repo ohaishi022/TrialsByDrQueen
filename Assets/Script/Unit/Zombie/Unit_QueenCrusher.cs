@@ -29,6 +29,7 @@ public class Unit_QueenCrusher : Unit_Base
         skillLoyalSlam = AddSkill<Skill_LoyalSlam>();
         skillGrenadePunt = AddSkill<Skill_GrenadePunt>();
         skillGrenadePunt.projectilePrefab = projectile;
+        skillGrenadePunt.StartInitialCooldown();
     }
 
     private void Update()
@@ -71,7 +72,7 @@ public class Unit_QueenCrusher : Unit_Base
             return;
         }
 
-        if (!skillLoyalSlam.IsOnCooldown() && IsEnemyInFrontOrOverlap())//오류있음
+        if (!skillLoyalSlam.IsOnCooldown() && IsEnemyInFrontOrOverlap())
         {
             HaltMovement();
             ActivateSkill(0); // LoyalSlam
@@ -145,8 +146,8 @@ public class Unit_QueenCrusher : Unit_Base
         else
             dir = new Vector2(0f, Mathf.Sign(dir.y == 0 ? 1 : dir.y));
 
-        float maxDist = 10f;
-        float minDist = 5f;
+        float maxDist = 12f;
+        float minDist = 6f;
 
         var hits = Physics2D.RaycastAll((Vector2)transform.position + dir * 0.01f, dir, maxDist);
         UnitType opponent = GetOpponentType();

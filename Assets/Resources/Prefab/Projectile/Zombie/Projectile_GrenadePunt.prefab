@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile_GrenadePunt
   shooter: {fileID: 0}
-  positiveUnitType: 0
+  positiveUnitType: 1
   animator: {fileID: 0}
   direction: {x: 0, y: 0}
   speed: 6

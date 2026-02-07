@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CS.AudioToolkit;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +24,16 @@ public abstract class Skill_Base : MonoBehaviour
     /* ───────────── Summon 관리 ───────────── */
     protected List<Unit_Base> summonedUnits = new List<Unit_Base>();
     public IReadOnlyList<Unit_Base> SummonedUnits => summonedUnits;
+
+    /* ───────────── UI Support ───────────── */
+    [Header("UI")]
+    public Sprite icon; // 인스펙터에서 스킬 아이콘 할당
+
+    // UI에서 쿨타임 비율을 표시하기 위해 남은 시간 저장
+    public float CurrentCooldown { get; protected set; }
+
+    // 탄창/에너지 표시용 가상 함수 (기본은 빈 문자열)
+    public virtual string GetStockText() { return ""; }
 
     /* ───────────── Public API ───────────── */
 
@@ -96,7 +107,21 @@ public abstract class Skill_Base : MonoBehaviour
     protected virtual IEnumerator StartCooldown()
     {
         isOnCooldown = true;
-        yield return WaitScaled(cooldownTime);
+        CurrentCooldown = cooldownTime;
+
+        while (CurrentCooldown > 0f)
+        {
+            float dt = GetSkillDeltaTime();
+            if (dt > 0f)
+            {
+                CurrentCooldown -= dt;
+            }
+            yield return null;
+        }
+
+        //yield return WaitScaled(cooldownTime);
+
+        CurrentCooldown = 0f;
         isOnCooldown = false;
     }
 
@@ -146,6 +171,29 @@ public abstract class Skill_Base : MonoBehaviour
     {
         if (!isOnCooldown)
             StartCoroutine(StartCooldown());
+    }
+
+    /* ───────────── SE ───────────── */
+
+    protected void PlaySE(string seId, Vector3 worldPos)
+    {
+        if (string.IsNullOrEmpty(seId))
+            return;
+
+        worldPos.z = Camera.main.transform.position.z;
+        AudioController.Play(seId, worldPos);
+    }
+
+    protected AudioObject PlaySEAttached(string seId, Transform target)
+    {
+        if (string.IsNullOrEmpty(seId) || target == null)
+            return null;
+
+        // 타겟의 Z만 Listener 기준으로 보정 (XY는 유지)
+        Vector3 pos = target.position;
+        pos.z = Camera.main.transform.position.z;
+
+        return AudioController.Play(seId, target);
     }
 
     /* ───────────── Summon Helpers ───────────── */

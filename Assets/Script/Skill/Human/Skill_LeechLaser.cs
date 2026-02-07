@@ -47,20 +47,18 @@ public class Skill_LeechLaser : Skill_Base
         isActive = true;
         u.stopMoving = true;
 
-        // ▶ 시전 시작
-        if (!string.IsNullOrEmpty(SE_Start))
-            AudioController.Play(SE_Start, u.transform.position);
+        // 시전 시작
+        PlaySE(SE_Start, u.transform.position);
 
         SpawnBeamFX(u);
 
-        // ▶ 차징
+        // 차징
         yield return WaitScaled(chargeTime);
 
         u.stopMoving = false;
 
-        // ▶ 발사 시작
-        if (!string.IsNullOrEmpty(SE_Beam))
-            AudioController.Play(SE_Beam, u.transform.position);
+        // 발사 시작
+        PlaySE(SE_Start, u.transform.position);
 
         SpawnEndFX(u);
 

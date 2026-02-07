@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using CS.AudioToolkit;
+using Unity.AppUI.Core;
 
 public class Skill_TurboFlip : Skill_Base
 {
@@ -14,6 +15,7 @@ public class Skill_TurboFlip : Skill_Base
     public GameObject flipEffect;
     public string SE_Flip = "";
     public string SE_Loop = "SE_Skill_TurboFlip_Loop";
+    private AudioObject loopAudioObj;
 
     private void Awake()
     {
@@ -34,7 +36,7 @@ public class Skill_TurboFlip : Skill_Base
         if (flipEffect != null)
             Instantiate(flipEffect, u.transform.position, Quaternion.identity, u.transform);
 
-        AudioController.Play(SE_Loop);
+        loopAudioObj = PlaySEAttached(SE_Loop, u.transform);
 
         // 1. 자신에게 무적 부여
         if (u.Status != null)
@@ -45,7 +47,11 @@ public class Skill_TurboFlip : Skill_Base
 
         yield return new WaitForSeconds(buffDuration);
 
-        AudioController.Stop(SE_Loop);
+        if (loopAudioObj != null)
+        {
+            loopAudioObj.Stop();   // 툴킷 쪽 페이드/설정 반영되며 멈춤
+            loopAudioObj = null;
+        }
         isActive = false;
         yield return StartCooldown(); // 쿨타임 시작
     }
@@ -76,7 +82,11 @@ public class Skill_TurboFlip : Skill_Base
     protected override void OnCanceled()
     {
         base.OnCanceled();
-        AudioController.Stop(SE_Loop);
+        if (loopAudioObj != null)
+        {
+            loopAudioObj.Stop();   // 툴킷 쪽 페이드/설정 반영되며 멈춤
+            loopAudioObj = null;
+        }
     }
 
     private void OnDrawGizmosSelected()

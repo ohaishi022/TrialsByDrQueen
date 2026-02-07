@@ -75,7 +75,7 @@ public abstract class Projectile_Base : MonoBehaviour
         remainingPierce = pierceCount;
 
         if (SE_Start != null)
-            foreach (string clip in SE_Start) AudioController.Play(clip, transform.position);
+            foreach (string clip in SE_Start) PlaySE(clip, transform.position);
     }
 
     protected virtual void Start()
@@ -158,7 +158,7 @@ public abstract class Projectile_Base : MonoBehaviour
 
         if (SE_Hit != null)
             foreach (string clip in SE_Hit)
-                AudioController.Play(clip, transform.position);
+                PlaySE(clip, transform.position);
 
         UnitType negative = GetNegative(positiveUnitType);
         bool isEnemy = (unit.unitType == negative);
@@ -344,6 +344,15 @@ public abstract class Projectile_Base : MonoBehaviour
                 Destroy(child.gameObject, particle.main.duration + particle.main.startLifetime.constantMax);
             }
         }
+    }
+
+    protected void PlaySE(string seId, Vector3 worldPos)
+    {
+        if (string.IsNullOrEmpty(seId))
+            return;
+
+        worldPos.z = Camera.main.transform.position.z;
+        AudioController.Play(seId, worldPos);
     }
 
     protected virtual void OnDrawGizmosSelected()

@@ -1,3 +1,4 @@
+using CS.AudioToolkit;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -677,6 +678,20 @@ public class Unit_Base : MonoBehaviour
     {
         Vector2Int d = Vector2Int.RoundToInt(b - a);
         return Mathf.Max(Mathf.Abs(d.x), Mathf.Abs(d.y));
+    }
+
+    protected void PlaySE(string seId, Vector3 worldPos)
+    {
+        if (string.IsNullOrEmpty(seId))
+            return;
+
+        // AudioListener(= 카메라) Z 기준으로 보정
+        if (Camera.main != null)
+        {
+            worldPos.z = Camera.main.transform.position.z;
+        }
+
+        AudioController.Play(seId, worldPos);
     }
 
     public void Get_StopMoving(float duration)

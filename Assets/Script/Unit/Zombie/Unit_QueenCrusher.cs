@@ -23,7 +23,7 @@ public class Unit_QueenCrusher : Unit_Base
     private void Start()
     {
         base.Start();
-        AudioController.Play("SE_Unit_StrawWingHacker_Spawn", transform.position);
+        PlaySE("SE_Unit_StrawWingHacker_Spawn", transform.position);
 
         // 스킬 추가
         skillLoyalSlam = AddSkill<Skill_LoyalSlam>();

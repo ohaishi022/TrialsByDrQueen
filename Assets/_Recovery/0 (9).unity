@@ -2464,8 +2464,8 @@ MonoBehaviour:
       RandomPitch: 0
       RandomDelay: 0
       overrideAudioSourceSettings: 1
-      audioSource_MinDistance: 12.8
-      audioSource_MaxDistance: 25.6
+      audioSource_MinDistance: 6.4
+      audioSource_MaxDistance: 12.8
       spatialBlend: 1
       subItems:
       - SubItemType: 0
@@ -2540,8 +2540,8 @@ MonoBehaviour:
       RandomPitch: 0
       RandomDelay: 0
       overrideAudioSourceSettings: 1
-      audioSource_MinDistance: 25.6
-      audioSource_MaxDistance: 51.2
+      audioSource_MinDistance: 12.8
+      audioSource_MaxDistance: 25.6
       spatialBlend: 1
       subItems:
       - SubItemType: 0
@@ -4066,7 +4066,7 @@ MonoBehaviour:
   _volume: 1
   _currentInspectorSelection:
     currentCategoryIndex: 1
-    currentItemIndex: 20
+    currentItemIndex: 32
     currentSubitemIndex: 0
     currentPlaylistEntryIndex: 0
     currentPlaylistIndex: 0

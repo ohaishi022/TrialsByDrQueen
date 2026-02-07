@@ -26,12 +26,18 @@ public class Skill_SneakyRaygun : Skill_Base
     [Header("Audio")]
     public string shootLoopSE = "SE_Skill_SneakyRaygun_Loop";
     public string shootEndSE = "SE_Skill_SneakyRaygun_End";
+    private AudioObject loopAudioObj;
 
     private void Awake()
     {
         cooldownTime = 2f;
         canDeactivate = true;
         currentEnergy = maxEnergy;
+    }
+
+    public override string GetStockText()
+    {
+        return $"{currentEnergy} / {maxEnergy}"; // 또는 $"{currentEnergy}/{maxEnergy}"
     }
 
     public override void ActivateSkill(Unit_Base user)
@@ -53,7 +59,7 @@ public class Skill_SneakyRaygun : Skill_Base
             yield break;
         }
 
-        AudioController.Play(shootLoopSE, u.transform);
+        loopAudioObj = PlaySEAttached(shootLoopSE, u.transform);
 
         FireOnce(u);
 
@@ -156,7 +162,11 @@ public class Skill_SneakyRaygun : Skill_Base
     {
         isActive = false;
 
-        AudioController.Stop(shootLoopSE);
+        if (loopAudioObj != null)
+        {
+            loopAudioObj.Stop();   // 툴킷 쪽 페이드/설정 반영되며 멈춤
+            loopAudioObj = null;
+        }
         AudioController.Play(shootEndSE, owner.transform);
 
         fireRoutine = null;
@@ -164,7 +174,11 @@ public class Skill_SneakyRaygun : Skill_Base
 
     protected override void OnCanceled()
     {
-        AudioController.Stop(shootLoopSE);
+        if (loopAudioObj != null)
+        {
+            loopAudioObj.Stop();   // 툴킷 쪽 페이드/설정 반영되며 멈춤
+            loopAudioObj = null;
+        }
     }
 
     private IEnumerator RegenerateEnergy(Unit_Base u)

@@ -8,7 +8,7 @@ public class Skill_TurboFlip : Skill_Base
     [Header("Skill Settings")]
     public float invincibleDuration = 1f;
     public float buffDuration = 7f; // 본인용 지속시간
-    public float speedMultiplier = 1.5f;
+    public float speedMultiplier = 1.7f;
     public float buffRadius = 5f;
 
     [Header("FX / Audio")]
